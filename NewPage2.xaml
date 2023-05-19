@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Real_Estate_App.NewPage2"
+             Title="NewPage2">
+    <Grid Padding="20">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="160"/>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+
+            <ImageButton
+                        HeightRequest="106"
+                        WidthRequest="106"
+                        CornerRadius="30"
+                        BackgroundColor="#F1F1F4"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Source="icons_less.png"
+                        Padding="23"
+                        Margin="-23"/>
+            
+            <Label Grid.Row="1"
+                   FontSize="30"
+                   TextColor="#2C4A68"
+                   HorizontalOptions="Start">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Enter the "/>
+                        <Span Text="code"
+                              FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <Label Text="Enter the 4 digit code that we just sent to"
+                   TextColor="#2C4A68"
+                   FontSize="15"
+                   Grid.Row="2"/>
+
+            <Label Text="jonathan@email.com"
+                   TextColor="#2C4A68"
+                   FontSize="15"
+                   FontAttributes="Bold"
+                   Grid.Row="3"/>
+
+            <Grid Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Border HeightRequest="90"
+                        WidthRequest="90"
+                        StrokeThickness="3"
+                        Stroke="#2C4A68">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                    </Border.StrokeShape>
+                    <BoxView
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"
+                    />
+                </Border>
+                <Label Text="2"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"
+                       TextColor="#2C4A68"
+                       FontSize="25"
+                       FontAttributes="Bold"/>
+
+                <BoxView
+                    Grid.Column="1"
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+                <BoxView
+                    Grid.Column="2"
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+                <BoxView
+                    Grid.Column="3"
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+            </Grid>
+
+            <Grid Grid.Row="5"
+                  HorizontalOptions="Center"
+                  VerticalOptions="End"
+                  Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="60"/>
+                </Grid.ColumnDefinitions>
+
+                <BoxView
+                    Grid.ColumnSpan="2"
+                    HeightRequest="65"
+                    WidthRequest="120"
+                    Color="#F1F1F4"
+                    CornerRadius="35"/>
+
+                <Image
+                    Grid.Column="0"
+                    Source="timer.png"
+                    Scale="0.4"/>
+                <Label
+                    Grid.Column="1"
+                    Text="00.21"
+                    FontSize="16"
+                    TextColor="#2C4A68"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"/>
+            </Grid>
+
+            <Label
+                Grid.Row="6"
+                TextColor="#2C4A68"
+                FontSize="15"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="End">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Didn't recieve the OTP? "/>
+                        <Span Text="Resend OTP"
+                              FontAttributes="Bold"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+    </Grid>
+</ContentPage>

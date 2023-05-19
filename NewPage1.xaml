@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Real_Estate_App.NewPage1"
+             Background="White"
+             Title="Page1">
+
+    <Grid>
+        <ScrollView>
+            <Grid Padding="20">
+                <Grid Margin="0" Padding="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="260"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <ImageButton
+                        HeightRequest="106"
+                        WidthRequest="106"
+                        CornerRadius="30"
+                        BackgroundColor="#F1F1F4"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Source="icons_less.png"
+                        Padding="23"
+                        Margin="-23"/>
+
+                    <Label Grid.Row="1"
+                   FontSize="30"
+                   TextColor="#2C4A68"
+                   HorizontalOptions="Start">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="FAQ "
+                              FontAttributes="Bold"/>
+                                <Span Text="&amp; "/>
+                                <Span Text="Support"
+                              FontAttributes="Bold"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Text="Find answer to your problem using this app."
+                   TextColor="#2C4A68"
+                   FontSize="15"
+                   Grid.Row="2"/>
+
+                    <Grid Grid.Row="3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="3"/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="3"/>
+                            <RowDefinition Height="80"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="45"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView Grid.Row="1"
+                             Grid.ColumnSpan="2"
+                             Color="#F1F1F4"/>
+                        <BoxView Grid.Row="3"
+                             Grid.ColumnSpan="2"
+                             Color="#F1F1F4"/>
+
+                        <ImageButton
+                            BackgroundColor="#2C4A68"                      
+                            HeightRequest="80"                           
+                            WidthRequest="80"                           
+                            CornerRadius="25"
+                            HorizontalOptions="Center"
+                            Source="icons_internet.png"
+                            Padding="15"/>
+
+                        <ImageButton
+                            BackgroundColor="#2C4A68"
+                            HeightRequest="80"
+                            WidthRequest="80"
+                            CornerRadius="25"
+                            HorizontalOptions="Center"
+                            Source="icons_mail.png"
+                            Aspect="AspectFit"
+                            Padding="15"
+                            Grid.Row="2"/>
+                        <ImageButton
+                            BackgroundColor="#2C4A68"
+                            HeightRequest="80"
+                            WidthRequest="80"
+                            CornerRadius="25"
+                            HorizontalOptions="Center"
+                            Source="icons_file.png"
+                            Padding="15"
+                            Grid.Row="4"/>
+
+                        <Label
+                            Text="Visit our website"
+                            Grid.Column="1"
+                            VerticalOptions="Center"
+                            FontSize="15.5"
+                            FontAttributes="Bold"
+                            TextColor="#2C4A68"
+                            Padding="10,0,0,0"/>
+                        <Label
+                            Text="Email us"
+                            Grid.Column="1"
+                            Grid.Row="2"
+                            VerticalOptions="Center"
+                            FontSize="15.5"
+                            FontAttributes="Bold"
+                            TextColor="#2C4A68"
+                            Padding="10,0,0,0"/>
+                        <Label
+                            Text="Terms of service"
+                            Grid.Column="1"
+                            Grid.Row="4"
+                            VerticalOptions="Center"
+                            FontSize="15.5"
+                            FontAttributes="Bold"
+                            TextColor="#2C4A68"
+                            Padding="10,0,0,0"/>
+                    </Grid>
+
+                    <BoxView Grid.Row="4"
+                     Color="#F1F1F4"
+                     CornerRadius="15"
+                     HeightRequest="110"
+                     VerticalOptions="Center"/>
+                    <SearchBar Grid.Row="4"
+                       VerticalOptions="Center"
+                       Placeholder="Try find &quot;how to&quot;"
+                       FontSize="15"
+                       PlaceholderColor="#AFB2C1"
+                       TextColor="#2C4A68"/>
+
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView Grid.ColumnSpan="2"
+                         Color="#F1F1F4"
+                         CornerRadius="15"
+                             HeightRequest="70"/>
+
+                        <Button Grid.Column="0"
+                        HeightRequest="50"
+                        WidthRequest="160"
+                        CornerRadius="50"
+                        Background="White"
+                        Text="Buyer"
+                        TextColor="#2C4A68"
+                        FontSize="14"/>
+                        <Button Grid.Column="1"
+                        HeightRequest="50"
+                        WidthRequest="160"
+                        CornerRadius="50"
+                        Background="#F1F1F4"
+                        Text="Estate Agent"
+                        TextColor="#AFB2C1"
+                        FontSize="14"/>
+                    </Grid>
+
+                    <Grid Grid.Row="6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="What is Rise Real Estate?"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           TextColor="#2C4A68"
+                           VerticalOptions="Center"/>
+                        <ImageButton
+                            Grid.Column="1"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            BackgroundColor="Transparent"
+                            Source="icons_plus.png"
+                            HorizontalOptions="End"
+                            Padding="2"/>
+                    </Grid>
+
+                    <Grid Grid.Row="7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Text="Why choose buy in Raise?"
+                           FontAttributes="Bold"
+                           FontSize="20"
+                           TextColor="#2C4A68"
+                           VerticalOptions="Center"/>
+                        <ImageButton
+                            Grid.Column="1"
+                            HeightRequest="30"
+                            WidthRequest="30"
+                            BackgroundColor="Transparent"
+                            Source="icons_minus.png"
+                            HorizontalOptions="End"
+                            Padding="2"/>
+                    </Grid>
+
+                    <Grid Grid.Row="8">
+                        <BoxView Color="#F1F1F4"
+                             CornerRadius="15"/>
+
+                        <Grid Padding="20">
+                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. aliquip ex ..."
+                               TextColor="#2C4A68"
+                               FontSize="15"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </ScrollView>
+
+        <Frame HeightRequest="100"
+               CornerRadius="0"
+               BorderColor="Transparent"
+               VerticalOptions="End">
+            <Frame.Background>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="Transparent"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Frame.Background>
+        </Frame>
+    </Grid>
+
+</ContentPage>
