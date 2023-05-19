@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage1"
+             xmlns:local="clr-namespace:Real_Estate_App.Customs"
              Background="White"
              Title="Page1">
 
@@ -11,7 +12,7 @@
                 <Grid Margin="0" Padding="0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="130"/>
-                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="70"/>
                         <RowDefinition Height="60"/>
                         <RowDefinition Height="260"/>
                         <RowDefinition Height="150"/>
@@ -137,12 +138,14 @@
                      CornerRadius="15"
                      HeightRequest="110"
                      VerticalOptions="Center"/>
-                    <SearchBar Grid.Row="4"
-                       VerticalOptions="Center"
-                       Placeholder="Try find &quot;how to&quot;"
-                       FontSize="15"
-                       PlaceholderColor="#AFB2C1"
-                       TextColor="#2C4A68"/>
+                    
+                    <local:LinelessSearch
+                        Grid.Row="4"
+                        VerticalOptions="Center"
+                        Placeholder="Try find &quot;how to&quot;"
+                        FontSize="15"
+                        PlaceholderColor="#AFB2C1"
+                        TextColor="#2C4A68"/>
 
                     <Grid Grid.Row="5">
                         <Grid.ColumnDefinitions>
@@ -150,27 +153,30 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
 
-                        <BoxView Grid.ColumnSpan="2"
-                         Color="#F1F1F4"
-                         CornerRadius="15"
-                             HeightRequest="70"/>
+                        <BoxView
+                            Grid.ColumnSpan="2"
+                            Color="#F1F1F4"
+                            CornerRadius="15"
+                            HeightRequest="70"/>
 
-                        <Button Grid.Column="0"
-                        HeightRequest="50"
-                        WidthRequest="160"
-                        CornerRadius="50"
-                        Background="White"
-                        Text="Buyer"
-                        TextColor="#2C4A68"
-                        FontSize="14"/>
-                        <Button Grid.Column="1"
-                        HeightRequest="50"
-                        WidthRequest="160"
-                        CornerRadius="50"
-                        Background="#F1F1F4"
-                        Text="Estate Agent"
-                        TextColor="#AFB2C1"
-                        FontSize="14"/>
+                        <Button
+                            Grid.Column="0"
+                            HeightRequest="50"
+                            WidthRequest="160"
+                            CornerRadius="50"
+                            Background="White"
+                            Text="Buyer"
+                            TextColor="#2C4A68"
+                            FontSize="14"/>
+                        <Button
+                            Grid.Column="1"
+                            HeightRequest="50"
+                            WidthRequest="160"
+                            CornerRadius="50"
+                            Background="#F1F1F4"
+                            Text="Estate Agent"
+                            TextColor="#AFB2C1"
+                            FontSize="14"/>
                     </Grid>
 
                     <Grid Grid.Row="6">
@@ -179,11 +185,12 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="What is Rise Real Estate?"
-                           FontAttributes="Bold"
-                           FontSize="20"
-                           TextColor="#2C4A68"
-                           VerticalOptions="Center"/>
+                        <Label
+                            Text="What is Rise Real Estate?"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Center"/>
                         <ImageButton
                             Grid.Column="1"
                             HeightRequest="30"
@@ -200,11 +207,12 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
 
-                        <Label Text="Why choose buy in Raise?"
-                           FontAttributes="Bold"
-                           FontSize="20"
-                           TextColor="#2C4A68"
-                           VerticalOptions="Center"/>
+                        <Label
+                            Text="Why choose buy in Raise?"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Center"/>
                         <ImageButton
                             Grid.Column="1"
                             HeightRequest="30"
@@ -216,13 +224,15 @@
                     </Grid>
 
                     <Grid Grid.Row="8">
-                        <BoxView Color="#F1F1F4"
-                             CornerRadius="15"/>
+                        <BoxView
+                            Color="#F1F1F4"
+                            CornerRadius="15"/>
 
                         <Grid Padding="20">
-                            <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. aliquip ex ..."
-                               TextColor="#2C4A68"
-                               FontSize="15"/>
+                            <Label
+                                Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. aliquip ex ..."
+                                TextColor="#2C4A68"
+                                FontSize="15"/>
                         </Grid>
                     </Grid>
                 </Grid>

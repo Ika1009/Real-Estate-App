@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Real_Estate_App.NewPage4"
+             xmlns:local="clr-namespace:Real_Estate_App.Customs"
+             Title="NewPage4">
+    <Grid>
+        <ScrollView>
+            <Grid>
+                <Image
+                    Source="city.png"
+                    VerticalOptions="Start"
+                    HeightRequest="130"
+                    Aspect="AspectFill"/>
+
+                <Grid Padding="20">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="130"/>
+                            <RowDefinition Height="70"/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="240"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="140"/>
+                        </Grid.RowDefinitions>
+
+                        <Label
+                            Grid.Row="1"
+                            FontSize="30"
+                            TextColor="#2C4A68"
+                            HorizontalOptions="Start">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span
+                                        Text="Let's "/>
+                                    <Span
+                                        Text="Sign In"
+                                        FontAttributes="Bold"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label
+                            Grid.Row="2"
+                            Text="quis nostrud exercitation ullamco laboris nisi ut"
+                            TextColor="#2C4A68"
+                            FontSize="15"/>
+
+                        <Grid Grid.Row="3"
+                              RowSpacing="20">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="100"/>
+                                <RowDefinition Height="100"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <BoxView
+                                Grid.ColumnSpan="2"
+                                Color="#F1F1F4"
+                                CornerRadius="15"/>
+                            <BoxView
+                                Grid.ColumnSpan="2"
+                                Grid.Row="1"
+                                Color="#F1F1F4"
+                                CornerRadius="15"/>
+
+                            <Image
+                                Source="icons_mail1.png"
+                                HorizontalOptions="Start"
+                                Scale="0.25"
+                                Margin="-20,0,0,0"/>
+                            <Image
+                                Grid.Row="1"
+                                Source="icons_lock.png"
+                                HorizontalOptions="Start"
+                                Scale="0.25"
+                                Margin="-20,0,0,0"/>
+
+                            <local:BorderlessEntry
+                                Grid.Column="1"
+                                Placeholder="Email"
+                                PlaceholderColor="#AFB2C1"
+                                TextColor="#2C4A68"
+                                FontSize="15"
+                                FontAttributes="Bold"
+                                FontFamily="OpenSans-Regular.ttf"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Start"
+                                Margin="-20,0,0,0"
+                                WidthRequest="270"/>
+                            <local:BorderlessEntry
+                                Grid.Row="1"
+                                Grid.Column="1"
+                                Placeholder="Password"
+                                PlaceholderColor="#AFB2C1"
+                                TextColor="#2C4A68"
+                                FontSize="15"
+                                FontAttributes="Bold"
+                                FontFamily="OpenSans-Regular.ttf"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Start"
+                                Margin="-20,0,0,0"
+                                WidthRequest="270"/>
+                        </Grid>
+
+                        <Label
+                            Grid.Row="4"
+                            Text="Forgot password?"
+                            TextColor="#2C4A68"
+                            FontSize="15"
+                            FontAttributes="Bold"/>
+                        <Label
+                            Grid.Row="4"
+                            Text="Show password"
+                            TextColor="#2C4A68"
+                            FontSize="15"
+                            FontAttributes="Bold"
+                            HorizontalOptions="End"/>
+
+                        <Grid Grid.Row="5"
+                              ColumnSpacing="5"
+                              VerticalOptions="Start">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <BoxView
+                                Color="#F1F1F4"
+                                HeightRequest="2"/>
+                            <BoxView
+                                Grid.Column="2"
+                                Color="#F1F1F4"
+                                HeightRequest="2"/>
+                            <Label
+                                Grid.Column="1"
+                                Text="OR"
+                                TextColor="#AFB2C1"
+                                FontSize="13"
+                                FontAttributes="Bold"
+                                HorizontalTextAlignment="Center"
+                                VerticalTextAlignment="Center"/>
+                        </Grid>
+
+                        <Grid Grid.Row="6"
+                              ColumnSpacing="15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+
+                            <BoxView
+                                Color="#F1F1F4"
+                                CornerRadius="25"/>
+                            <BoxView
+                                Grid.Column="1"
+                                Color="#F1F1F4"
+                                CornerRadius="25"/>
+
+                            <Image
+                                Source="google_logo.png"
+                                Scale="0.4"/>
+                            <Image
+                                Grid.Column="1"
+                                Source="facebook_logo.png"
+                                Scale="0.45"/>
+                        </Grid>
+
+                        <Label Grid.Row="7"
+                               VerticalOptions="End"
+                               HorizontalOptions="Center"
+                               TextColor="#2C4A68"
+                               FontSize="14">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span
+                                        Text="Don't have an account? "/>
+                                    <Span
+                                        Text="Register"
+                                        FontAttributes="Bold"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
