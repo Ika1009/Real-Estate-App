@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Real_Estate_App.NewPage6"
+             Title="NewPage6">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <ImageButton
+            Grid.Row="1"
+            Source="icons_home.png"
+            HeightRequest="30"/>
+        <ImageButton
+            Grid.Row="1"
+            Grid.Column="1"
+            Source="icons_search.png"
+            HeightRequest="30"/>
+        <ImageButton
+            Grid.Row="1"
+            Grid.Column="2"
+            Source="heart.png"
+            HeightRequest="30"/>
+        <ImageButton
+            Grid.Row="1"
+            Grid.Column="3"
+            Source="icons_account_filled.png"
+            HeightRequest="30"/>
+
+        <ScrollView
+            Grid.ColumnSpan="4">
+            <Grid Padding="20">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="150"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="120"/>
+                        <RowDefinition Height="130"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <Label
+                        Text="Profile"
+                        TextColor="#2C4A68"
+                        FontSize="15"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center"
+                        VerticalOptions="Center"/>
+
+                    <ImageButton
+                        BackgroundColor="#F1F1F4"
+                        HeightRequest="90"
+                        WidthRequest="90"
+                        CornerRadius="30"
+                        Source="icons_gear.png"
+                        Padding="15"
+                        Margin="-15"
+                        HorizontalOptions="End"/>
+
+                    <Frame
+                        Grid.Row="1"
+                        Padding="0"
+                        HeightRequest="130"
+                        WidthRequest="130"
+                        CornerRadius="65"
+                        VerticalOptions="Start"
+                        Margin="0,20,0,0">
+                        <Image
+                            Source="guy.png"
+                            HeightRequest="130"
+                            WidthRequest="130"/>
+                    </Frame>
+
+                    <ImageButton
+                        Grid.Row="1"
+                        BackgroundColor="#2C4A68"
+                        VerticalOptions="End"
+                        Margin="78,8,-12,-12"
+                        HeightRequest="64"
+                        WidthRequest="64"
+                        CornerRadius="20"
+                        Source="icons_pencil.png"
+                        Padding="12"/>
+
+                    <Label
+                        Grid.Row="2"
+                        Text="Mathew Adam"
+                        TextColor="#2C4A68"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End"/>
+
+                    <Label
+                        Grid.Row="3"
+                        TextColor="#2C4A68"
+                        HorizontalOptions="Center"
+                        VerticalOptions="End">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span
+                                    Text="mathew"/>
+                                <Span
+                                    Text="@gmail.com"
+                                    TextDecorations="Underline"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Grid Grid.Row="4"
+                          VerticalOptions="End">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <Border
+                            Stroke="#F1F1F4"
+                            HeightRequest="90"
+                            WidthRequest="110"
+                            StrokeThickness="2"
+                            StrokeShape="RoundRectangle 20">
+                            <Label
+                                Grid.Row="0"
+                                TextColor="#2C4A68"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            Text="30 &#10;"
+                                            FontSize="20"
+                                            FontAttributes="Bold"/>
+                                        <Span
+                                            Text="Listings"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Border>
+                        <Border
+                            Grid.Column="1"
+                            Stroke="#F1F1F4"
+                            HeightRequest="90"
+                            WidthRequest="110"
+                            StrokeThickness="2"
+                            StrokeShape="RoundRectangle 20">
+                            <Label
+                                Grid.Row="0"
+                                TextColor="#2C4A68"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            Text="12 &#10;"
+                                            FontSize="20"
+                                            FontAttributes="Bold"/>
+                                        <Span
+                                            Text="Sold"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Border>
+                        <Border
+                            Grid.Column="2"
+                            Stroke="#F1F1F4"
+                            HeightRequest="90"
+                            WidthRequest="110"
+                            StrokeThickness="2"
+                            StrokeShape="RoundRectangle 20">
+                            <Label
+                                Grid.Row="0"
+                                TextColor="#2C4A68"
+                                VerticalOptions="Center"
+                                HorizontalOptions="Center"
+                                HorizontalTextAlignment="Center">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span
+                                            Text="28 &#10;"
+                                            FontSize="20"
+                                            FontAttributes="Bold"/>
+                                        <Span
+                                            Text="Reviews"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Border>
+                    </Grid>
+
+                    <Grid Grid.Row="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <BoxView
+                            Grid.ColumnSpan="3"
+                            VerticalOptions="Center"
+                            HeightRequest="70"
+                            CornerRadius="40"
+                            Color="#F1F1F4"/>
+
+                        <Button
+                            BackgroundColor="White"
+                            Text="Transaction"
+                            TextColor="#2C4A68"
+                            FontSize="13"
+                            FontAttributes="Bold"
+                            WidthRequest="110"
+                            HeightRequest="45"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Start"
+                            Margin="10,0,0,0"
+                            CornerRadius="30"/>
+                        <Button
+                            Grid.Column="1"
+                            BackgroundColor="#F1F1F4"
+                            Text="Listings"
+                            TextColor="#AFB2C1"
+                            FontSize="13"
+                            FontAttributes="Bold"
+                            WidthRequest="110"
+                            HeightRequest="45"
+                            VerticalOptions="Center"
+                            HorizontalOptions="Center"
+                            CornerRadius="30"/>
+                        <Button
+                            Grid.Column="2"
+                            BackgroundColor="#F1F1F4"
+                            Text="Sold"
+                            TextColor="#AFB2C1"
+                            FontSize="13"
+                            FontAttributes="Bold"
+                            WidthRequest="110"
+                            HeightRequest="45"
+                            VerticalOptions="Center"
+                            HorizontalOptions="End"
+                            Margin="0,0,10,0"
+                            CornerRadius="30"/>
+                    </Grid>
+
+                    <Label
+                        Grid.Row="6"
+                        Text="2 transactions"
+                        TextColor="#2C4A68"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        VerticalOptions="Center"/>
+
+                    <BoxView
+                        Grid.Row="6"
+                        WidthRequest="70"
+                        HeightRequest="60"
+                        VerticalOptions="Center"
+                        HorizontalOptions="End"
+                        Color="#F1F1F4"
+                        CornerRadius="30"/>
+                    <ImageButton
+                        Grid.Row="6"
+                        WidthRequest="66"
+                        HeightRequest="56"
+                        Margin="-8,-8,2,-8"
+                        VerticalOptions="Center"
+                        HorizontalOptions="End"
+                        BackgroundColor="White"
+                        CornerRadius="20"
+                        Source="icons_grid.png"
+                        Padding="8"/>
+
+                    <Grid
+                        Grid.Row="7"
+                        HorizontalOptions="Center"
+                        WidthRequest="330">
+                        <FlexLayout
+                            JustifyContent="SpaceBetween"
+                            Wrap="Wrap"
+                            Margin="0,40,0,0">
+                            <Frame
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start"
+                                WidthRequest="160"
+                                MinimumHeightRequest="220"
+                                MaximumHeightRequest="500"
+                                CornerRadius="30"
+                                Padding="10"
+                                BackgroundColor="#F1F1F4"
+                                BorderColor="Transparent"
+                                Margin="0,0,0,10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="140"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Frame
+                                    CornerRadius="30"
+                                    HeightRequest="140"
+                                    WidthRequest="140"
+                                    VerticalOptions="Start">
+                                        <Image
+                                        Source="house1.png"
+                                        HeightRequest="200"
+                                        WidthRequest="200"
+                                        Aspect="AspectFill"/>
+                                    </Frame>
+                                    <ImageButton
+                                    BackgroundColor="#E6F1F1F4"
+                                    HeightRequest="60"
+                                    WidthRequest="60"
+                                    CornerRadius="20"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Start"
+                                    Margin="-10,0,0,-10"
+                                    Padding="10"
+                                    Source="heart.png"/>
+
+                                    <Frame
+                                    VerticalOptions="End"
+                                    HeightRequest="30"
+                                    MinimumWidthRequest="50"
+                                    Margin="0,0,10,10"
+                                    HorizontalOptions="End"
+                                    BackgroundColor="#E6596980"
+                                    CornerRadius="10"
+                                    BorderColor="Transparent"
+                                    Padding="13,0,13,0">
+                                        <Label
+                                        Text="Rent"
+                                        TextColor="White"
+                                        FontSize="12"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"/>
+                                    </Frame>
+
+                                    <Label
+                                    Grid.Row="1"
+                                    MaxLines="3"
+                                    Text="Wings Tower"
+                                    TextColor="#2C4A68"
+                                    FontSize="15"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Start"
+                                    Padding="10,10,0,10"/>
+
+                                    <Image
+                                    Grid.Row="2"
+                                    Source="clock.png"
+                                    HeightRequest="12"
+                                    HorizontalOptions="Start"
+                                    Margin="10,0,0,0"/>
+                                    <Label
+                                    Grid.Row="2"
+                                    Text="November 21, 2021"
+                                    TextColor="#2C4A68"
+                                    FontSize="10"
+                                    VerticalOptions="Center"
+                                    Padding="25,0,0,0"/>
+                                </Grid>
+                            </Frame>
+                            <Frame
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start"
+                                WidthRequest="160"
+                                MinimumHeightRequest="220"
+                                MaximumHeightRequest="500"
+                                CornerRadius="30"
+                                Padding="10"
+                                BackgroundColor="#F1F1F4"
+                                BorderColor="Transparent"
+                                Margin="0,0,0,10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="140"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Frame
+                                    CornerRadius="30"
+                                    HeightRequest="140"
+                                    WidthRequest="140"
+                                    VerticalOptions="Start">
+                                        <Image
+                                        Source="house2.png"
+                                        HeightRequest="200"
+                                        WidthRequest="200"
+                                        Aspect="AspectFill"/>
+                                    </Frame>
+                                    <ImageButton
+                                    BackgroundColor="#E6F1F1F4"
+                                    HeightRequest="60"
+                                    WidthRequest="60"
+                                    CornerRadius="20"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Start"
+                                    Margin="-10,0,0,-10"
+                                    Padding="10"
+                                    Source="heart.png"/>
+
+                                    <Frame
+                                    VerticalOptions="End"
+                                    HeightRequest="30"
+                                    MinimumWidthRequest="50"
+                                    Margin="0,0,10,10"
+                                    HorizontalOptions="End"
+                                    BackgroundColor="#E6596980"
+                                    CornerRadius="10"
+                                    BorderColor="Transparent"
+                                    Padding="13,0,13,0">
+                                        <Label
+                                        Text="Rent"
+                                        TextColor="White"
+                                        FontSize="12"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"/>
+                                    </Frame>
+
+                                    <Label
+                                    Grid.Row="1"
+                                    MaxLines="3"
+                                    Text="Bridgeland Modern House"
+                                    TextColor="#2C4A68"
+                                    FontSize="15"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Start"
+                                    Padding="10,10,0,10"/>
+
+                                    <Image
+                                    Grid.Row="2"
+                                    Source="clock.png"
+                                    HeightRequest="12"
+                                    HorizontalOptions="Start"
+                                    Margin="10,0,0,0"/>
+                                    <Label
+                                    Grid.Row="2"
+                                    Text="November 21, 2021"
+                                    TextColor="#2C4A68"
+                                    FontSize="10"
+                                    VerticalOptions="Center"
+                                    Padding="25,0,0,0"/>
+                                </Grid>
+                            </Frame>
+                            <Frame
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start"
+                                WidthRequest="160"
+                                MinimumHeightRequest="220"
+                                MaximumHeightRequest="500"
+                                CornerRadius="30"
+                                Padding="10"
+                                BackgroundColor="#F1F1F4"
+                                BorderColor="Transparent"
+                                Margin="0,0,0,10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="140"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Frame
+                                    CornerRadius="30"
+                                    HeightRequest="140"
+                                    WidthRequest="140"
+                                    VerticalOptions="Start">
+                                        <Image
+                                        Source="house2.png"
+                                        HeightRequest="200"
+                                        WidthRequest="200"
+                                        Aspect="AspectFill"/>
+                                    </Frame>
+                                    <ImageButton
+                                    BackgroundColor="#E6F1F1F4"
+                                    HeightRequest="60"
+                                    WidthRequest="60"
+                                    CornerRadius="20"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Start"
+                                    Margin="-10,0,0,-10"
+                                    Padding="10"
+                                    Source="heart.png"/>
+
+                                    <Frame
+                                    VerticalOptions="End"
+                                    HeightRequest="30"
+                                    MinimumWidthRequest="50"
+                                    Margin="0,0,10,10"
+                                    HorizontalOptions="End"
+                                    BackgroundColor="#E6596980"
+                                    CornerRadius="10"
+                                    BorderColor="Transparent"
+                                    Padding="13,0,13,0">
+                                        <Label
+                                        Text="Rent"
+                                        TextColor="White"
+                                        FontSize="12"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"/>
+                                    </Frame>
+
+                                    <Label
+                                    Grid.Row="1"
+                                    MaxLines="3"
+                                    Text="Bridgeland Modern House"
+                                    TextColor="#2C4A68"
+                                    FontSize="15"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Start"
+                                    Padding="10,10,0,10"/>
+
+                                    <Image
+                                    Grid.Row="2"
+                                    Source="clock.png"
+                                    HeightRequest="12"
+                                    HorizontalOptions="Start"
+                                    Margin="10,0,0,0"/>
+                                    <Label
+                                    Grid.Row="2"
+                                    Text="November 21, 2021"
+                                    TextColor="#2C4A68"
+                                    FontSize="10"
+                                    VerticalOptions="Center"
+                                    Padding="25,0,0,0"/>
+                                </Grid>
+                            </Frame>
+                            <Frame
+                                HorizontalOptions="Start"
+                                VerticalOptions="Start"
+                                WidthRequest="160"
+                                MinimumHeightRequest="220"
+                                MaximumHeightRequest="500"
+                                CornerRadius="30"
+                                Padding="10"
+                                BackgroundColor="#F1F1F4"
+                                BorderColor="Transparent"
+                                Margin="0,0,0,10">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="140"/>
+                                        <RowDefinition Height="*"/>
+                                        <RowDefinition Height="*"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Frame
+                                    CornerRadius="30"
+                                    HeightRequest="140"
+                                    WidthRequest="140"
+                                    VerticalOptions="Start">
+                                        <Image
+                                        Source="house1.png"
+                                        HeightRequest="200"
+                                        WidthRequest="200"
+                                        Aspect="AspectFill"/>
+                                    </Frame>
+                                    <ImageButton
+                                    BackgroundColor="#E6F1F1F4"
+                                    HeightRequest="60"
+                                    WidthRequest="60"
+                                    CornerRadius="20"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Start"
+                                    Margin="-10,0,0,-10"
+                                    Padding="10"
+                                    Source="heart.png"/>
+
+                                    <Frame
+                                    VerticalOptions="End"
+                                    HeightRequest="30"
+                                    MinimumWidthRequest="50"
+                                    Margin="0,0,10,10"
+                                    HorizontalOptions="End"
+                                    BackgroundColor="#E6596980"
+                                    CornerRadius="10"
+                                    BorderColor="Transparent"
+                                    Padding="13,0,13,0">
+                                        <Label
+                                        Text="Rent"
+                                        TextColor="White"
+                                        FontSize="12"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"/>
+                                    </Frame>
+
+                                    <Label
+                                    Grid.Row="1"
+                                    MaxLines="3"
+                                    Text="Wings Tower"
+                                    TextColor="#2C4A68"
+                                    FontSize="15"
+                                    FontAttributes="Bold"
+                                    HorizontalOptions="Start"
+                                    VerticalOptions="Start"
+                                    Padding="10,10,0,10"/>
+
+                                    <Image
+                                    Grid.Row="2"
+                                    Source="clock.png"
+                                    HeightRequest="12"
+                                    HorizontalOptions="Start"
+                                    Margin="10,0,0,0"/>
+                                    <Label
+                                    Grid.Row="2"
+                                    Text="November 21, 2021"
+                                    TextColor="#2C4A68"
+                                    FontSize="10"
+                                    VerticalOptions="Center"
+                                    Padding="25,0,0,0"/>
+                                </Grid>
+                            </Frame>
+                        </FlexLayout>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
