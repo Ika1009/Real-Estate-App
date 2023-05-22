@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui.Controls.Hosting;
 
 namespace Real_Estate_App;
 
@@ -20,5 +21,5 @@ public static class MauiProgram
 #endif
 
 		return builder.Build();
-	}
+    }
 }
