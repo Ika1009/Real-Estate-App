@@ -42,19 +42,23 @@
                    HorizontalOptions="Start">
                         <Label.FormattedText>
                             <FormattedString>
-                                <Span Text="FAQ "
-                              FontAttributes="Bold"/>
-                                <Span Text="&amp; "/>
-                                <Span Text="Support"
-                              FontAttributes="Bold"/>
+                                <Span 
+                                    Text="FAQ "
+                                    FontAttributes="Bold"/>
+                                <Span
+                                    Text="&amp; "/>
+                                <Span
+                                    Text="Support"
+                                    FontAttributes="Bold"/>
                             </FormattedString>
                         </Label.FormattedText>
                     </Label>
 
-                    <Label Text="Find answer to your problem using this app."
-                   TextColor="#2C4A68"
-                   FontSize="15"
-                   Grid.Row="2"/>
+                    <Label
+                        Text="Find answer to your problem using this app."
+                        TextColor="#2C4A68"
+                        FontSize="15"
+                        Grid.Row="2"/>
 
                     <Grid Grid.Row="3">
                         <Grid.RowDefinitions>

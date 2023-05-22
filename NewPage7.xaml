@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Real_Estate_App.NewPage7"
+             Title="NewPage7">
+    <Grid>
+        <ScrollView>
+            <Grid Padding="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="130"/>
+                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="80"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Image
+                    Source="real_estate_logo_icons"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    Margin="0,25,0,0"/>
+
+                <Button
+                    Text="skip"
+                    TextColor="#2C4A68"
+                    BackgroundColor="#DCDCDC"
+                    HeightRequest="40"
+                    WidthRequest="90"
+                    CornerRadius="45"
+                    HorizontalOptions="End"
+                    VerticalOptions="Start"
+                    Margin="0,25,0,0"/>
+
+                <Label
+                    Grid.Row="1"
+                    FontSize="30"
+                    TextColor="#2C4A68"
+                    HorizontalOptions="Start"
+                    LineHeight="1.4">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span
+                                Text="Find best place &#10;to stay in "/>
+                            <Span
+                                Text="good price"
+                                TextColor="#2C4A68"
+                                FontAttributes="Bold"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label
+                    Grid.Row="2"
+                    LineHeight="1.4"
+                    Text="Lorem ispum dolor sit amet, consectetur &#10;adipiscing elit, sed."
+                    TextColor="#2C4A68"
+                    FontSize="15"/>
+
+                <Frame
+                    Grid.Row="3"
+                    CornerRadius="30"
+                    Margin="-10,25,-10,-10"
+                    Padding="0,0,0,0"
+                    BorderColor="Transparent"
+                    VerticalOptions="Start">
+                    <Grid>
+                        <Image
+                            Source="home_decor.png"
+                            Aspect="AspectFill"
+                            HeightRequest="600"/>
+
+                        <BoxView
+                            HeightRequest="4"
+                            WidthRequest="100"
+                            CornerRadius="2"
+                            Color="#80FFFFFF"
+                            Margin="0,340,0,0"/>
+                        <BoxView
+                            HeightRequest="4"
+                            WidthRequest="70"
+                            CornerRadius="2"
+                            Color="#FFFFFF"
+                            Margin="0,340,30,0"
+                            IsVisible="True"/>
+                        <BoxView
+                            HeightRequest="4"
+                            WidthRequest="70"
+                            CornerRadius="2"
+                            Color="#FFFFFF"
+                            Margin="30,340,0,0"
+                            IsVisible="False"/>
+
+                        <Button
+                            Text="Next"
+                            TextColor="White"
+                            FontSize="18"
+                            FontAttributes="Bold"
+                            BackgroundColor="#98C655"
+                            VerticalOptions="End"
+                            Margin="0,0,0,40"
+                            HeightRequest="70"
+                            WidthRequest="200"/>
+                    </Grid>
+                </Frame>
+            </Grid>
+        </ScrollView>
+    </Grid>
+</ContentPage>
