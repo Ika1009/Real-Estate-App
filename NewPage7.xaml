@@ -4,7 +4,7 @@
              x:Class="Real_Estate_App.NewPage7"
              Title="NewPage7">
     <Grid>
-        <ScrollView>
+        <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="130"/>

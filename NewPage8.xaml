@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
              Title="NewPage8">
     <Grid>
-        <ScrollView>
+        <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
                 <Grid>
                     <Grid.RowDefinitions>

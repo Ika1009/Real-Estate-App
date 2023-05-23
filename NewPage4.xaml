@@ -5,7 +5,7 @@
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
              Title="NewPage4">
     <Grid>
-        <ScrollView>
+        <ScrollView VerticalScrollBarVisibility="Never">
             <Grid>
                 <Image
                     Source="city.png"
