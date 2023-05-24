@@ -23,6 +23,7 @@
             VerticalOptions="End"
             HorizontalTextAlignment="Center"/>
 
+        <!-- vodi na 7. stranu -->
         <Button
             Grid.Row="1"
             WidthRequest="200"

@@ -19,6 +19,7 @@
                     VerticalOptions="Start"
                     Margin="0,25,0,0"/>
 
+                <!-- vodi na 4. stranu -->
                 <Button
                     Text="skip"
                     TextColor="#2C4A68"
@@ -89,6 +90,7 @@
                             Margin="30,340,0,0"
                             IsVisible="False"/>
 
+                        <!-- ako se klikne 2 puta, vodi na 4. stranu -->
                         <Button
                             Text="Next"
                             TextColor="White"

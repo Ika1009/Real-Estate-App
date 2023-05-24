@@ -167,6 +167,7 @@
                         FontAttributes="Bold"
                         HorizontalOptions="End"/>
 
+                    <!-- vodi na 2. stranu -->
                     <Button
                         Grid.Row="5"
                         HeightRequest="80"

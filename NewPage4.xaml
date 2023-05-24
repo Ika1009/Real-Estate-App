@@ -181,6 +181,7 @@
                                 <FormattedString>
                                     <Span
                                         Text="Don't have an account? "/>
+                                    <!-- void na 3. stranu -->
                                     <Span
                                         Text="Register"
                                         FontAttributes="Bold"/>

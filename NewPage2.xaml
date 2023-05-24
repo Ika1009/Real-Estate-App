@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage2"
              Title="NewPage2">
+    
+    <!-- nakon unosa koda, void na 4. stranu -->
+    
     <Grid Padding="20">
         <Grid>
             <Grid.RowDefinitions>

@@ -291,6 +291,9 @@
                             JustifyContent="SpaceBetween"
                             Wrap="Wrap"
                             Margin="0,40,0,0">
+                            
+                            <!-- kad se klikne (nekako) na frame, vodi na 8. stranu -->
+                            
                             <Frame
                                 HorizontalOptions="Start"
                                 VerticalOptions="Start"
