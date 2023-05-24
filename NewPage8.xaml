@@ -9,6 +9,15 @@
             <Grid Padding="20">
                 <Grid>
                     <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                        <RowDefinition Height="200"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="120"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="120"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="80"/>
+                        <RowDefinition Height="120"/>
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="100"/>
                         <RowDefinition Height="300"/>
@@ -16,14 +25,293 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
 
+                    <Image
+                        Grid.RowSpan="3"
+                        Source="circle.png"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Scale="3"
+                        Margin="0,-10,0,0"/>
+                    <BoxView
+                        Grid.RowSpan="3"
+                        Color="#CCFFFFFF"
+                        Margin="-20,-20,-20,0"
+                        />
+
+                    <ImageButton
+                        HeightRequest="106"
+                        WidthRequest="106"
+                        CornerRadius="30"
+                        BackgroundColor="#F1F1F4"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Start"
+                        Source="icons_less.png"
+                        Padding="23"
+                        Margin="-23"/>
+                    
                     <Label
+                        Text="Edit Listing"
+                        TextColor="#2C4A68"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center"
+                        VerticalOptions="Start"
+                        Margin="0,20,0,0"/>
+
+                    <Grid Grid.Row="1">
+                        <Frame
+                            VerticalOptions="Start"
+                            HeightRequest="150"
+                            CornerRadius="30"
+                            BackgroundColor="#F1F1F4"
+                            BorderColor="Transparent"
+                            Padding="10">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="180"/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+
+                                <Frame
+                                    BorderColor="Transparent"
+                                    CornerRadius="25"
+                                    Padding="0">
+                                    <Grid>
+                                        <Image
+                                            Source="house2.png"
+                                            Aspect="AspectFill"/>
+
+                                        <ImageButton
+                                            Source="heart_filled.png"
+                                            BackgroundColor="#F1F1F4"
+                                            WidthRequest="40"
+                                            HeightRequest="40"
+                                            VerticalOptions="Start"
+                                            HorizontalOptions="Start"
+                                            CornerRadius="15"
+                                            Padding="5"
+                                            Margin="3,3,-5,-5"/>
+
+                                        <Frame
+                                            HeightRequest="30"
+                                            MaximumWidthRequest="160"
+                                            CornerRadius="10"
+                                            BackgroundColor="#E62C4A68"
+                                            BorderColor="Transparent"
+                                            VerticalOptions="End"
+                                            HorizontalOptions="Start"
+                                            Margin="8,0,0,8"
+                                            Padding="10,0,10,0">
+
+                                            <Label
+                                                Text="House"
+                                                TextColor="#FFFFFF"
+                                                FontSize="10"
+                                                HorizontalTextAlignment="Center"
+                                                VerticalTextAlignment="Center"
+                                                MaxLines="1"
+                                            />
+                                        </Frame>
+                                    </Grid>
+                                </Frame>
+                                
+                                <Grid
+                                    Grid.Column="1"
+                                    Padding="10,20,10,30">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition Height="30"/>
+                                    </Grid.RowDefinitions>
+
+                                    <Label
+                                        Text="Schoolview House"
+                                        TextColor="#2C4A68"
+                                        FontSize="13"
+                                        FontAttributes="Bold"
+                                        HeightRequest="40"
+                                        VerticalTextAlignment="Center"/>
+
+                                    <Image
+                                        Grid.Row="1"
+                                        Source="star.png"
+                                        WidthRequest="12"
+                                        HeightRequest="12"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"/>
+                                    <Label
+                                        Grid.Row="1"
+                                        Text="4.6"
+                                        TextColor="#2C4A68"
+                                        FontSize="12"
+                                        FontAttributes="Bold"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        Padding="15,0,0,0"/>
+
+                                    <Image
+                                        Grid.Row="2"
+                                        Source="icons_locator_blue.png"
+                                        WidthRequest="12"
+                                        HeightRequest="12"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"/>
+                                    <Label
+                                        Grid.Row="2"
+                                        Text="Semarang, Indonesia"
+                                        TextColor="#2C4A68"
+                                        FontSize="10"
+                                        FontAttributes="Bold"
+                                        MaxLines="2"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        Padding="15,0,0,0"/>
+                                </Grid>
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                    
+                    <Label
+                        Grid.Row="2"
+                        Text="Listing Title"
+                        TextColor="#2C4A68"
+                        FontSize="20"
+                        FontAttributes="Bold"/>
+
+                    <BoxView
+                        Grid.Row="3"
+                        HeightRequest="80"
+                        VerticalOptions="Start"
+                        Color="#F1F1F4"
+                        CornerRadius="30"/>
+                    <local:BorderlessEntry
+                        Grid.Row="3"
+                        VerticalOptions="Start"
+                        HeightRequest="80"
+                        WidthRequest="280"
+                        MaxLength="20"
+                        HorizontalOptions="Start"
+                        Placeholder="Enter listing title"
+                        PlaceholderColor="#AFB2C1"
+                        Text="Schoolview House"
+                        TextColor="#2C4A68"
+                        FontSize="15"
+                        Margin="15,0,0,0"/>
+                    <Image
+                        Grid.Row="3"
+                        Source="icons_home.png"
+                        Aspect="AspectFit"
+                        VerticalOptions="Start"
+                        HeightRequest="80"
+                        WidthRequest="30"
+                        HorizontalOptions="End"
+                        Margin="0,0,15,0"/>
+
+                    <Label
+                        Grid.Row="4"
+                        Text="Listing Type"
+                        TextColor="#2C4A68"
+                        FontSize="20"
+                        FontAttributes="Bold"/>
+
+                    <HorizontalStackLayout
+                        Grid.Row="5"
+                        Spacing="10">
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#2C4A68"
+                            Text="Rent"
+                            TextColor="#F1F1F4"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#2C4A68"
+                            Text="Sell"
+                            TextColor="#F1F1F4"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+                    </HorizontalStackLayout>
+
+                    <Label
+                        Grid.Row="6"
+                        Text="Property Category"
+                        TextColor="#2C4A68"
+                        FontSize="20"
+                        FontAttributes="Bold"/>
+
+                    <HorizontalStackLayout
+                        Grid.Row="7"
+                        Spacing="10">
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#2C4A68"
+                            Text="House"
+                            TextColor="#F1F1F4"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#F1F1F4"
+                            Text="Apartment"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+                    </HorizontalStackLayout>
+
+                    <HorizontalStackLayout
+                        Grid.Row="8"
+                        Spacing="10">
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#F1F1F4"
+                            Text="Hotel"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#F1F1F4"
+                            Text="Villa"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+
+                        <Button
+                            HeightRequest="60"
+                            CornerRadius="25"
+                            BackgroundColor="#F1F1F4"
+                            Text="Cottage"
+                            TextColor="#2C4A68"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Start"
+                            Padding="30,0,30,0"/>
+                    </HorizontalStackLayout>
+
+                    <Label
+                        Grid.Row="9"
                         Text="Location"
                         TextColor="#2C4A68"
                         FontSize="20"
                         FontAttributes="Bold"/>
 
                     <ImageButton
-                        Grid.Row="1"
+                        Grid.Row="10"
                         Source="icons_locator.png"
                         HeightRequest="86"
                         WidthRequest="86"
@@ -35,7 +323,7 @@
                         Margin="-13"/>
 
                     <Label
-                        Grid.Row="1"
+                        Grid.Row="10"
                         Text="Jl. Gerungsari, Bulusan, Kec. Tembalang, Kota, Semarang, Jawa Tengah 50277"
                         TextColor="#5c5c72"
                         HorizontalOptions="Start"
@@ -44,7 +332,7 @@
                         MaxLines="3"/>
 
                     <Frame
-                        Grid.Row="2"
+                        Grid.Row="11"
                         HeightRequest="250"
                         CornerRadius="30"
                         BorderColor="Transparent"
@@ -69,7 +357,7 @@
                     </Frame>
 
                     <Label
-                        Grid.Row="3"
+                        Grid.Row="12"
                         Text="Listing Photos"
                         TextColor="#2C4A68"
                         FontSize="20"
@@ -77,7 +365,7 @@
                         VerticalOptions="Start"/>
 
                     <Grid
-                        Grid.Row="4">
+                        Grid.Row="13">
                         <FlexLayout
                             JustifyContent="SpaceEvenly"
                             Wrap="Wrap">
