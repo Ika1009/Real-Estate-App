@@ -4,6 +4,8 @@
              x:Class="Real_Estate_App.NewPage4"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
              Title="NewPage4">
+    
+    <!-- nakon sign in-a, vodi na 6. stranu -->
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid>
