@@ -72,71 +72,112 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"
-                    />
+                    CornerRadius="15"/>
                 </Border>
-                <Label Text="2"
+                <Entry
+                    TextColor="#2C4A68"
+                    FontSize="25"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="30,0,0,0"
+                    MaxLength="1"
+                    IsEnabled="True"
+                    Keyboard="Numeric"/>
+                <!--<Label Text="2"
                        VerticalOptions="Center"
                        HorizontalOptions="Center"
                        TextColor="#2C4A68"
                        FontSize="25"
-                       FontAttributes="Bold"/>
+                       FontAttributes="Bold"/>-->
                 
                 <!-- after code entry, navigates to page 4-->
-                <Frame Grid.Column="1"
-                       HeightRequest="80"
-                       WidthRequest="80"
-                       BackgroundColor="#F1F1F4"
-                       BorderColor="#F1F1F4"
-                       
-                       CornerRadius="15"
-                       Padding="0"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center">
+                <Border
+                    Grid.Column="1"
+                    HeightRequest="90"
+                    WidthRequest="90"
+                    StrokeThickness="3"
+                    Stroke="Transparent">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                    </Border.StrokeShape>
+                    <BoxView
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+                </Border>
 
-                    <Entry Text=""
-                           VerticalOptions="CenterAndExpand"
-                           HorizontalOptions="CenterAndExpand" 
-                           FontSize="Large" 
-                           TextColor="Black"
-                           x:Name="entryCode1"
-                           TextChanged="Entry_TextChanged"/>          
-                </Frame>
-                <Frame Grid.Column="2"
-                       HeightRequest="80"
-                       WidthRequest="80"
-                       BackgroundColor="#F1F1F4"
-                       BorderColor="#F1F1F4"
-                       CornerRadius="15"
-                       Padding="0"
-                       VerticalOptions="CenterAndExpand"
-                       HorizontalOptions="CenterAndExpand">
+                <Entry
+                    x:Name="entryCode1"
+                    Grid.Column="1"
+                    TextColor="#2C4A68"
+                    FontSize="25"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="30,0,0,0"
+                    MaxLength="1"
+                    IsEnabled="False"
+                    Keyboard="Numeric"/>
 
-                    <Entry Text=""
-                           VerticalOptions="CenterAndExpand"
-                           HorizontalOptions="CenterAndExpand" 
-                           FontSize="Large" 
-                           TextColor="Black"
-                           x:Name="entryCode2"
-                           TextChanged="Entry_TextChanged"/>
-                </Frame>
-                <Frame Grid.Column="3"
-                       HeightRequest="80"
-                       WidthRequest="80"
-                       BackgroundColor="#F1F1F4"
-                       CornerRadius="15"
-                       Padding="0"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center">
+                <Border
+                    Grid.Column="2"
+                    HeightRequest="90"
+                    WidthRequest="90"
+                    StrokeThickness="3"
+                    Stroke="Transparent">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                    </Border.StrokeShape>
+                    <BoxView
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+                </Border>
 
-                    <Entry Text=""
-                           VerticalOptions="CenterAndExpand"
-                           HorizontalOptions="CenterAndExpand" 
-                           FontSize="Large" 
-                           TextColor="Black"
-                           x:Name="entryCode3"
-                           TextChanged="Entry_TextChanged"/>
-                </Frame>
+                <Entry
+                    x:Name="entryCode2"
+                    Grid.Column="2"
+                    TextColor="#2C4A68"
+                    FontSize="25"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="30,0,0,0"
+                    MaxLength="1"
+                    IsEnabled="False"
+                    Keyboard="Numeric"/>
+
+                <Border
+                    Grid.Column="3"
+                    HeightRequest="90"
+                    WidthRequest="90"
+                    StrokeThickness="3"
+                    Stroke="Transparent">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                    </Border.StrokeShape>
+                    <BoxView
+                    HeightRequest="80"
+                    WidthRequest="80"
+                    Color="#F1F1F4"
+                    CornerRadius="15"/>
+                </Border>
+
+                <Entry
+                    x:Name="entryCode3"
+                    Grid.Column="3"
+                    TextColor="#2C4A68"
+                    FontSize="25"
+                    FontAttributes="Bold"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="30,0,0,0"
+                    MaxLength="1"
+                    IsEnabled="False"
+                    Keyboard="Numeric"/>
             </Grid>
 
             <Grid Grid.Row="5"

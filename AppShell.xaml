@@ -8,8 +8,8 @@
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:NewPage4}"
-        Route="NewPage4" />
+        ContentTemplate="{DataTemplate local:NewPage2}"
+        Route="NewPage2" />
 
     <Tab Route="TabBar">
         <ShellContent 
