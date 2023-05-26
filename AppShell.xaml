@@ -11,4 +11,27 @@
         ContentTemplate="{DataTemplate local:NewPage4}"
         Route="NewPage4" />
 
+    <Tab Route="TabBar">
+        <ShellContent 
+            Title="Home" 
+            ContentTemplate="{DataTemplate local:NewPage6}" 
+            Route="HomePage" 
+            Icon="icons_home.png"/>
+        <ShellContent 
+            Title="Search" 
+            ContentTemplate="{DataTemplate local:NewPage6}"
+            Icon="icons_search.png"
+            Route="SearchPage" />
+        <ShellContent 
+            Title="Favourites"
+            Icon="heart.png"
+            ContentTemplate="{DataTemplate local:NewPage6}" 
+            Route="HeartPage" />
+        <ShellContent 
+            Title="ProfilePage"
+            Icon="icons_account.png"
+            ContentTemplate="{DataTemplate local:NewPage6}" 
+            Route="ProfilePage" />
+    </Tab>
+
 </Shell>

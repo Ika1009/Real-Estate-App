@@ -62,31 +62,55 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="NewPage1.xaml">
+	  <Compile Update="CreateAccountPage.xaml.cs">
+	    <DependentUpon>CreateAccountPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="EnterCodePage.xaml.cs">
+	    <DependentUpon>EnterCodePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="FQPage.xaml.cs">
+	    <DependentUpon>FQPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="LetsStartPage.xaml.cs">
+	    <DependentUpon>LetsStartPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="FindBestPlacePage.xaml.cs">
+	    <DependentUpon>FindBestPlacePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="EditListingPage.xaml.cs">
+	    <DependentUpon>EditListingPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="ProfilePage.xaml.cs">
+	    <DependentUpon>ProfilePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="SignInPage.xaml.cs">
+	    <DependentUpon>SignInPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="FQPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage2.xaml">
+	  <MauiXaml Update="EnterCodePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage3.xaml">
+	  <MauiXaml Update="CreateAccountPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage4.xaml">
+	  <MauiXaml Update="SignInPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage5.xaml">
+	  <MauiXaml Update="LetsStartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage6.xaml">
+	  <MauiXaml Update="ProfilePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage7.xaml">
+	  <MauiXaml Update="FindBestPlacePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="NewPage8.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="NewPage9.xaml">
+	  <MauiXaml Update="EditListingPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

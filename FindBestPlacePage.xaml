@@ -20,7 +20,7 @@
                     VerticalOptions="Start"
                     Margin="0,25,0,0"/>
 
-                <!-- navigates to page 8 -->
+                <!-- navigates to page 6 -->
                 <Button
                     Text="skip"
                     TextColor="#2C4A68"
