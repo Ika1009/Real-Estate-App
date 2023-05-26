@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage6"
-             Title="NewPage6">
+             Title="NewPage6"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="True">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -14,26 +16,6 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-
-        <ImageButton
-            Grid.Row="1"
-            Source="icons_home.png"
-            HeightRequest="30"/>
-        <ImageButton
-            Grid.Row="1"
-            Grid.Column="1"
-            Source="icons_search.png"
-            HeightRequest="30"/>
-        <ImageButton
-            Grid.Row="1"
-            Grid.Column="2"
-            Source="heart.png"
-            HeightRequest="30"/>
-        <ImageButton
-            Grid.Row="1"
-            Grid.Column="3"
-            Source="icons_account_filled.png"
-            HeightRequest="30"/>
 
         <ScrollView
             Grid.ColumnSpan="4">
@@ -292,7 +274,7 @@
                             Wrap="Wrap"
                             Margin="0,40,0,0">
                             
-                            <!-- kad se klikne (nekako) na frame, vodi na 8. stranu -->
+                            
                             
                             <Frame
                                 HorizontalOptions="Start"
@@ -305,6 +287,13 @@
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
                                 Margin="0,0,0,10">
+
+                                <!-- when clicked on Frame it goes to page 8 -->
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"> </TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+
+                                
                                 <Grid>
                                     <Grid.RowDefinitions>
                                         <RowDefinition Height="140"/>

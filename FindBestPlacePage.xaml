@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage7"
-             Title="NewPage7">
+             Title="NewPage7"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
@@ -19,7 +20,7 @@
                     VerticalOptions="Start"
                     Margin="0,25,0,0"/>
 
-                <!-- vodi na 4. stranu -->
+                <!-- navigates to page 6 -->
                 <Button
                     Text="skip"
                     TextColor="#2C4A68"
@@ -29,7 +30,8 @@
                     CornerRadius="45"
                     HorizontalOptions="End"
                     VerticalOptions="Start"
-                    Margin="0,25,0,0"/>
+                    Margin="0,25,0,0"
+                    Clicked="Button_Clicked"/>
 
                 <Label
                     Grid.Row="1"
@@ -90,7 +92,7 @@
                             Margin="30,340,0,0"
                             IsVisible="False"/>
 
-                        <!-- ako se klikne 2 puta, vodi na 4. stranu -->
+                        <!-- if clicked 2 times navigates to page 4 -->
                         <Button
                             Text="Next"
                             TextColor="White"
@@ -100,7 +102,11 @@
                             VerticalOptions="End"
                             Margin="0,0,0,40"
                             HeightRequest="70"
-                            WidthRequest="200"/>
+                            WidthRequest="200">
+                            <Button.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Button_Tapped_Twice" NumberOfTapsRequired="2"></TapGestureRecognizer>
+                            </Button.GestureRecognizers>
+                        </Button>
                     </Grid>
                 </Frame>
             </Grid>

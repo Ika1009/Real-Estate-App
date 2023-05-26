@@ -4,7 +4,8 @@
              x:Class="Real_Estate_App.NewPage1"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
              Background="White"
-             Title="Page1">
+             Title="Page1"
+             Shell.NavBarIsVisible="False">
 
     <Grid>
         <ScrollView>
@@ -34,7 +35,8 @@
                         VerticalOptions="Start"
                         Source="icons_less.png"
                         Padding="23"
-                        Margin="-23"/>
+                        Margin="-23"
+                        Clicked="ImageButton_Clicked"/>
 
                     <Label Grid.Row="1"
                    FontSize="30"

@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage5"
-             Title="NewPage5">
+             Title="NewPage5"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="450"/>
@@ -23,7 +24,7 @@
             VerticalOptions="End"
             HorizontalTextAlignment="Center"/>
 
-        <!-- vodi na 7. stranu -->
+        <!-- goes to page7 -->
         <Button
             Grid.Row="1"
             WidthRequest="200"
@@ -33,7 +34,8 @@
             Text="Let's start"
             FontSize="18"
             FontAttributes="Bold"
-            VerticalOptions="End"/>
+            VerticalOptions="End"
+            Clicked="Button_Clicked"/>
 
         <Label Grid.Row="2"
                VerticalOptions="Center"

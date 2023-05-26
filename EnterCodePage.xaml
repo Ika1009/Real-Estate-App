@@ -2,10 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage2"
-             Title="NewPage2">
-    
-    <!-- nakon unosa koda, void na 4. stranu -->
-    
+             Title="NewPage2"
+             Shell.NavBarIsVisible="False">
+
     <Grid Padding="20">
         <Grid>
             <Grid.RowDefinitions>
@@ -27,7 +26,8 @@
                         VerticalOptions="Start"
                         Source="icons_less.png"
                         Padding="23"
-                        Margin="-23"/>
+                        Margin="-23"
+                        Clicked="ImageButton_Clicked"/>
             
             <Label Grid.Row="1"
                    FontSize="30"
@@ -81,25 +81,62 @@
                        TextColor="#2C4A68"
                        FontSize="25"
                        FontAttributes="Bold"/>
+                
+                <!-- after code entry, navigates to page 4-->
+                <Frame Grid.Column="1"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       BackgroundColor="#F1F1F4"
+                       BorderColor="#F1F1F4"
+                       
+                       CornerRadius="15"
+                       Padding="0"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
 
-                <BoxView
-                    Grid.Column="1"
-                    HeightRequest="80"
-                    WidthRequest="80"
-                    Color="#F1F1F4"
-                    CornerRadius="15"/>
-                <BoxView
-                    Grid.Column="2"
-                    HeightRequest="80"
-                    WidthRequest="80"
-                    Color="#F1F1F4"
-                    CornerRadius="15"/>
-                <BoxView
-                    Grid.Column="3"
-                    HeightRequest="80"
-                    WidthRequest="80"
-                    Color="#F1F1F4"
-                    CornerRadius="15"/>
+                    <Entry Text=""
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand" 
+                           FontSize="Large" 
+                           TextColor="Black"
+                           x:Name="entryCode1"
+                           TextChanged="Entry_TextChanged"/>          
+                </Frame>
+                <Frame Grid.Column="2"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       BackgroundColor="#F1F1F4"
+                       BorderColor="#F1F1F4"
+                       CornerRadius="15"
+                       Padding="0"
+                       VerticalOptions="CenterAndExpand"
+                       HorizontalOptions="CenterAndExpand">
+
+                    <Entry Text=""
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand" 
+                           FontSize="Large" 
+                           TextColor="Black"
+                           x:Name="entryCode2"
+                           TextChanged="Entry_TextChanged"/>
+                </Frame>
+                <Frame Grid.Column="3"
+                       HeightRequest="80"
+                       WidthRequest="80"
+                       BackgroundColor="#F1F1F4"
+                       CornerRadius="15"
+                       Padding="0"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
+
+                    <Entry Text=""
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand" 
+                           FontSize="Large" 
+                           TextColor="Black"
+                           x:Name="entryCode3"
+                           TextChanged="Entry_TextChanged"/>
+                </Frame>
             </Grid>
 
             <Grid Grid.Row="5"

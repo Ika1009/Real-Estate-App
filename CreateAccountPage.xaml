@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage3"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
-             Title="NewPage3">
+             Title="NewPage3"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
@@ -26,7 +27,8 @@
                         VerticalOptions="Start"
                         Source="icons_less.png"
                         Padding="23"
-                        Margin="-23"/>
+                        Margin="-23"
+                        Clicked="ImageButton_Clicked"/>
 
                     <Label
                         Grid.Row="1"
@@ -167,12 +169,13 @@
                         FontAttributes="Bold"
                         HorizontalOptions="End"/>
 
-                    <!-- vodi na 2. stranu -->
+                    <!-- goes to page 2 -->
                     <Button
                         Grid.Row="5"
                         HeightRequest="80"
                         WidthRequest="290"
                         BackgroundColor="#98C655"
+                        Clicked="Button_Clicked"
                         CornerRadius="15"
                         Text="Register"
                         FontSize="18"
