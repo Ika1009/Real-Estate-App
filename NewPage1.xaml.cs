@@ -6,4 +6,9 @@ public partial class NewPage1 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void ImageButton_Clicked(object sender, EventArgs e)
+    {
+		await Navigation.PopAsync();
+    }
 }

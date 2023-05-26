@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage8"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
-             Title="NewPage8">
+             Title="NewPage8"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
@@ -53,7 +54,7 @@
                         Margin="-20,-20,-20,0"
                         />
 
-                    <!-- vodi te nazad na 6. stranu -->
+                    <!-- goes back to page 6 -->
                     <ImageButton
                         HeightRequest="106"
                         WidthRequest="106"
@@ -63,7 +64,8 @@
                         VerticalOptions="Start"
                         Source="icons_less.png"
                         Padding="23"
-                        Margin="-23"/>
+                        Margin="-23"
+                        Clicked="ImageButton_Clicked"/>
 
                     <Label
                         Text="Edit Listing"

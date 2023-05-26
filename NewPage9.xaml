@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage9"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
-             Title="NewPage9">
+             Title="NewPage9"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid Padding="20">
@@ -72,7 +73,8 @@
                     VerticalOptions="Start"
                     Color="#F1F1F4"
                     CornerRadius="30"/>
-                <!--Formatirati tekst bolje vvvvvvvv-->
+                
+                
                 <local:BorderlessEntry
                     Grid.Row="3"
                     VerticalOptions="Start"

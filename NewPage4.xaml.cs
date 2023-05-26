@@ -6,4 +6,9 @@ public partial class NewPage4 : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void TapGestureRecognizer_Tapped(object sender, TappedEventArgs e)
+    {
+        await Navigation.PushAsync(new NewPage3()); // I have used Navigation Stack, but this can be changed depending on what you want
+    }
 }

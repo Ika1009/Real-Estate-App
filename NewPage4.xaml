@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Real_Estate_App.NewPage4"
              xmlns:local="clr-namespace:Real_Estate_App.Customs"
-             Title="NewPage4">
+             Title="NewPage4"
+             Shell.NavBarIsVisible="False">
     <Grid>
         <ScrollView VerticalScrollBarVisibility="Never">
             <Grid>
@@ -177,14 +178,18 @@
                                HorizontalOptions="Center"
                                TextColor="#2C4A68"
                                FontSize="14">
+                            <!-- goes to page 3 -->
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1" />
+                            </Label.GestureRecognizers>
+
                             <Label.FormattedText>
                                 <FormattedString>
                                     <Span
                                         Text="Don't have an account? "/>
-                                    <!-- void na 3. stranu -->
                                     <Span
                                         Text="Register"
-                                        FontAttributes="Bold"/>
+                                        FontAttributes="Bold" />
                                 </FormattedString>
                             </Label.FormattedText>
                         </Label>
