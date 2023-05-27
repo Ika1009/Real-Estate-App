@@ -15,6 +15,7 @@ public partial class NewPage2 : ContentPage
     private async void Entry_TextChanged(object sender, TextChangedEventArgs e)
     {
         // checking if all three has been inputed
+        // after inputing each entry, the next gets enabled and gets a border to indicate that it is enabled
         if(!string.IsNullOrEmpty(entryCode0.Text))
         {
             borderCode0.StrokeThickness = 0;
@@ -35,7 +36,9 @@ public partial class NewPage2 : ContentPage
                     if (!string.IsNullOrEmpty(entryCode3.Text))
                     {
                         borderCode3.StrokeThickness = 0;
-                        //Here is the code for validation when all three are inputed
+
+                        //Here should be the code for validation when all four are inputed
+
                         await Navigation.PushAsync(new NewPage5());
                     }
                 }

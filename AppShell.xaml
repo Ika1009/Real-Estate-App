@@ -7,9 +7,9 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:NewPage2}"
-        Route="NewPage2" />
+        Title="Sign In"
+        ContentTemplate="{DataTemplate local:NewPage4}"
+        Route="SignInPage" />
 
     <TabBar Route="TabBar">
         <ShellContent 
