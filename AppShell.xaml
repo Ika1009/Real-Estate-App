@@ -23,12 +23,12 @@
             Icon="icons_search.png"
             Route="SearchPage" />
         <ShellContent 
-            Title="Favourites"
+            Title="My Favourites"
             Icon="heart.png"
-            ContentTemplate="{DataTemplate local:NewPage6}" 
+            ContentTemplate="{DataTemplate local:MyFavoritesPage}" 
             Route="HeartPage" />
         <ShellContent 
-            Title="ProfilePage"
+            Title="Profile"
             Icon="icons_account.png"
             ContentTemplate="{DataTemplate local:NewPage6}" 
             Route="ProfilePage" />
