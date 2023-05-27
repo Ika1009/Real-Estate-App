@@ -64,7 +64,8 @@
                 <Border HeightRequest="90"
                         WidthRequest="90"
                         StrokeThickness="3"
-                        Stroke="#2C4A68">
+                        Stroke="#2C4A68"
+                        x:Name="borderCode0">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="15, 15, 15, 15"/>
                     </Border.StrokeShape>
@@ -72,9 +73,11 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"/>
+                    CornerRadius="15"
+                        />
                 </Border>
                 <Entry
+                    x:Name="entryCode0"
                     TextColor="#2C4A68"
                     FontSize="25"
                     FontAttributes="Bold"
@@ -83,7 +86,8 @@
                     Margin="30,0,0,0"
                     MaxLength="1"
                     IsEnabled="True"
-                    Keyboard="Numeric"/>
+                    Keyboard="Numeric"
+                    TextChanged="Entry_TextChanged"/>
                 <!--<Label Text="2"
                        VerticalOptions="Center"
                        HorizontalOptions="Center"
@@ -96,8 +100,9 @@
                     Grid.Column="1"
                     HeightRequest="90"
                     WidthRequest="90"
-                    StrokeThickness="3"
-                    Stroke="Transparent">
+                    StrokeThickness="0"
+                    Stroke="#2C4A68"
+                    x:Name="borderCode1">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="15, 15, 15, 15"/>
                     </Border.StrokeShape>
@@ -119,14 +124,16 @@
                     Margin="30,0,0,0"
                     MaxLength="1"
                     IsEnabled="False"
-                    Keyboard="Numeric"/>
+                    Keyboard="Numeric"
+                    TextChanged="Entry_TextChanged"/>
 
                 <Border
                     Grid.Column="2"
                     HeightRequest="90"
                     WidthRequest="90"
-                    StrokeThickness="3"
-                    Stroke="Transparent">
+                    StrokeThickness="0"
+                    Stroke="#2C4A68"
+                    x:Name="borderCode2">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="15, 15, 15, 15"/>
                     </Border.StrokeShape>
@@ -148,14 +155,16 @@
                     Margin="30,0,0,0"
                     MaxLength="1"
                     IsEnabled="False"
-                    Keyboard="Numeric"/>
+                    Keyboard="Numeric"
+                    TextChanged="Entry_TextChanged"/>
 
                 <Border
                     Grid.Column="3"
                     HeightRequest="90"
                     WidthRequest="90"
-                    StrokeThickness="3"
-                    Stroke="Transparent">
+                    StrokeThickness="0"
+                    Stroke="#2C4A68"
+                    x:Name="borderCode3">
                     <Border.StrokeShape>
                         <RoundRectangle CornerRadius="15, 15, 15, 15"/>
                     </Border.StrokeShape>
@@ -177,7 +186,8 @@
                     Margin="30,0,0,0"
                     MaxLength="1"
                     IsEnabled="False"
-                    Keyboard="Numeric"/>
+                    Keyboard="Numeric"
+                    TextChanged="Entry_TextChanged"/>
             </Grid>
 
             <Grid Grid.Row="5"
