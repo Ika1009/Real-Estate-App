@@ -50,6 +50,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\icona_bin_extended.png" />
 	  <None Remove="Resources\Images\timer.png" />
 	</ItemGroup>
 

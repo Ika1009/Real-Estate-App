@@ -9,7 +9,7 @@
     <ShellContent
         Title="Sign In"
         ContentTemplate="{DataTemplate local:NewPage4}"
-        Route="SignInPage" />
+        Route="SugnInPage" />
 
     <TabBar Route="TabBar">
         <ShellContent 
