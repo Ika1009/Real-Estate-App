@@ -55,58 +55,94 @@
                                 <RowDefinition Height="100"/>
                                 <RowDefinition Height="100"/>
                             </Grid.RowDefinitions>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="80"/>
-                                <ColumnDefinition/>
-                            </Grid.ColumnDefinitions>
 
-                            <BoxView
-                                Grid.ColumnSpan="2"
-                                Color="#F1F1F4"
-                                CornerRadius="15"/>
-                            <BoxView
-                                Grid.ColumnSpan="2"
-                                Grid.Row="1"
-                                Color="#F1F1F4"
-                                CornerRadius="15"/>
+                            <!--#2C4A68  Blue color for the border when the entry is active -->
+                            <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
+                            <Border
+                                Stroke="#F1F1F4"
+                                StrokeThickness="3"
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="Center">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="15"/>
+                                </Border.StrokeShape>
 
-                            <Image
-                                Source="icons_mail1.png"
-                                HorizontalOptions="Start"
-                                Scale="0.25"
-                                Margin="-20,0,0,0"/>
-                            <Image
-                                Grid.Row="1"
-                                Source="icons_lock.png"
-                                HorizontalOptions="Start"
-                                Scale="0.25"
-                                Margin="-20,0,0,0"/>
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
 
-                            <local:BorderlessEntry
-                                Grid.Column="1"
-                                Placeholder="Email"
-                                PlaceholderColor="#AFB2C1"
-                                TextColor="#2C4A68"
-                                FontSize="15"
-                                FontAttributes="Bold"
-                                FontFamily="OpenSans-Regular.ttf"
-                                VerticalOptions="Center"
-                                HorizontalOptions="Start"
-                                Margin="-20,0,0,0"
-                                WidthRequest="270"/>
-                            <local:BorderlessEntry
+                                    <BoxView
+                                        Grid.ColumnSpan="2"
+                                        Color="#F1F1F4"
+                                        CornerRadius="15"/>
+
+                                    <Image
+                                        Source="icons_mail1.png"
+                                        HorizontalOptions="Start"
+                                        Scale="0.25"
+                                        Margin="-20,0,0,0"/>
+
+                                    <local:BorderlessEntry
+                                        Grid.Column="1"
+                                        Placeholder="Email"
+                                        PlaceholderColor="#AFB2C1"
+                                        TextColor="#2C4A68"
+                                        FontSize="15"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Regular.ttf"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        WidthRequest="270"
+                                        Margin="-20,0,0,0"/>
+                                </Grid>
+                            </Border>
+
+                            <!--#2C4A68  Blue color for the border when the entry is active -->
+                            <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
+                            <Border
                                 Grid.Row="1"
-                                Grid.Column="1"
-                                Placeholder="Password"
-                                PlaceholderColor="#AFB2C1"
-                                TextColor="#2C4A68"
-                                FontSize="15"
-                                FontAttributes="Bold"
-                                FontFamily="OpenSans-Regular.ttf"
-                                VerticalOptions="Center"
-                                HorizontalOptions="Start"
-                                Margin="-20,0,0,0"
-                                WidthRequest="270"/>
+                                Stroke="#F1F1F4"
+                                StrokeThickness="3"
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="Center">
+                                <Border.StrokeShape>
+                                    <RoundRectangle CornerRadius="15"/>
+                                </Border.StrokeShape>
+
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="80"/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <BoxView
+                                        Grid.ColumnSpan="2"
+                                        Color="#F1F1F4"
+                                        CornerRadius="15"/>
+
+
+                                    <Image
+                                        Source="icons_lock.png"
+                                        HorizontalOptions="Start"
+                                        Scale="0.25"
+                                        Margin="-20,0,0,0"/>
+
+                                    <local:BorderlessEntry
+                                        Grid.Column="1"
+                                        Placeholder="Password"
+                                        PlaceholderColor="#AFB2C1"
+                                        TextColor="#2C4A68"
+                                        FontSize="15"
+                                        FontAttributes="Bold"
+                                        FontFamily="OpenSans-Regular.ttf"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Start"
+                                        WidthRequest="270"
+                                        Margin="-20,0,0,0"/>
+                                </Grid>
+                            </Border>
                         </Grid>
 
                         <Label
