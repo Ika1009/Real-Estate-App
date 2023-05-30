@@ -65,6 +65,7 @@
                         <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
                         <Border
                             Stroke="#F1F1F4"
+                            x:Name="border1"
                             StrokeThickness="3"
                             BackgroundColor="Transparent"
                             HorizontalOptions="Center">
@@ -106,6 +107,7 @@
                         <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
                         <Border
                             Grid.Row="1"
+                            x:Name="border2"
                             Stroke="#F1F1F4"
                             StrokeThickness="3"
                             BackgroundColor="Transparent"
