@@ -58,7 +58,7 @@
                     <ImageButton
                         HeightRequest="106"
                         WidthRequest="106"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         BackgroundColor="#F1F1F4"
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
@@ -80,7 +80,7 @@
                         <Frame
                             VerticalOptions="Start"
                             HeightRequest="150"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             BackgroundColor="#F1F1F4"
                             BorderColor="Transparent"
                             Padding="10">
@@ -92,7 +92,7 @@
 
                                 <Frame
                                     BorderColor="Transparent"
-                                    CornerRadius="25"
+                                    CornerRadius="0"
                                     Padding="0">
                                     <Grid>
                                         <Image
@@ -106,14 +106,14 @@
                                             HeightRequest="40"
                                             VerticalOptions="Start"
                                             HorizontalOptions="Start"
-                                            CornerRadius="15"
+                                            CornerRadius="0"
                                             Padding="5"
                                             Margin="3,3,-5,-5"/>
 
                                         <Frame
                                             HeightRequest="30"
                                             MaximumWidthRequest="160"
-                                            CornerRadius="10"
+                                            CornerRadius="0"
                                             BackgroundColor="#E62C4A68"
                                             BorderColor="Transparent"
                                             VerticalOptions="End"
@@ -201,7 +201,7 @@
                         HeightRequest="80"
                         VerticalOptions="Start"
                         Color="#F1F1F4"
-                        CornerRadius="30"/>
+                        CornerRadius="0"/>
                     <local:BorderlessEntry
                         Grid.Row="3"
                         VerticalOptions="Start"
@@ -237,7 +237,7 @@
                         Spacing="10">
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#2C4A68"
                             Text="Rent"
                             TextColor="#F1F1F4"
@@ -247,7 +247,7 @@
 
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#2C4A68"
                             Text="Sell"
                             TextColor="#F1F1F4"
@@ -268,7 +268,7 @@
                         Spacing="10">
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#2C4A68"
                             Text="House"
                             TextColor="#F1F1F4"
@@ -278,7 +278,7 @@
 
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#F1F1F4"
                             Text="Apartment"
                             TextColor="#2C4A68"
@@ -292,7 +292,7 @@
                         Spacing="10">
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#F1F1F4"
                             Text="Hotel"
                             TextColor="#2C4A68"
@@ -302,7 +302,7 @@
 
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#F1F1F4"
                             Text="Villa"
                             TextColor="#2C4A68"
@@ -312,7 +312,7 @@
 
                         <Button
                             HeightRequest="60"
-                            CornerRadius="25"
+                            CornerRadius="0"
                             BackgroundColor="#F1F1F4"
                             Text="Cottage"
                             TextColor="#2C4A68"
@@ -334,7 +334,7 @@
                         HeightRequest="86"
                         WidthRequest="86"
                         BackgroundColor="#F1F1F4"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         HorizontalOptions="Start"
                         VerticalOptions="Center"
                         Padding="13"
@@ -352,7 +352,7 @@
                     <Frame
                         Grid.Row="11"
                         HeightRequest="250"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         BorderColor="Transparent"
                         VerticalOptions="Start"
                         Padding="0">
@@ -399,7 +399,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -437,7 +437,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -475,7 +475,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -513,7 +513,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -554,7 +554,7 @@
                                         Text="+"
                                         TextColor="#2C4A68"
                                         FontSize="40"
-                                        CornerRadius="30"
+                                        CornerRadius="0"
                                         BackgroundColor="#F1F1F4"/>
                                 </Frame>
                         </FlexLayout>-->
@@ -577,7 +577,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -615,7 +615,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -653,7 +653,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -691,7 +691,7 @@
                                         <Frame
                                             WidthRequest="165"
                                             HeightRequest="170"
-                                            CornerRadius="30"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <BoxView
@@ -732,7 +732,7 @@
                                         Text="+"
                                         TextColor="#2C4A68"
                                         FontSize="40"
-                                        CornerRadius="30"
+                                        CornerRadius="0"
                                         BackgroundColor="#F1F1F4"/>
                                 </Frame>
                             </HorizontalStackLayout>
@@ -755,7 +755,7 @@
                         HeightRequest="80"
                         VerticalOptions="Start"
                         Color="#F1F1F4"
-                        CornerRadius="30"/>
+                        CornerRadius="0"/>
                     <local:BorderlessEntry
                         Grid.Row="15"
                         VerticalOptions="Start"
@@ -791,7 +791,7 @@
                         HeightRequest="80"
                         VerticalOptions="Start"
                         Color="#F1F1F4"
-                        CornerRadius="30"/>
+                        CornerRadius="0"/>
                     <!--Formatirati tekst bolje vvvvvvvv-->
                     <local:BorderlessEntry
                         Grid.Row="17"
@@ -820,7 +820,7 @@
                         Grid.Row="18"
                         HeightRequest="60"
                         WidthRequest="110"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         VerticalOptions="Start"
                         HorizontalOptions="Start"
                         Background="#2C4A68"
@@ -831,7 +831,7 @@
                         Grid.Row="18"
                         HeightRequest="60"
                         WidthRequest="100"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         VerticalOptions="Start"
                         HorizontalOptions="Start"
                         Background="#F1F1F4"
@@ -860,7 +860,7 @@
                             HeightRequest="80"
                             VerticalOptions="Center"
                             Color="#F1F1F4"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Margin="-15"/>
                         <Label
                             WidthRequest="100"
@@ -911,7 +911,7 @@
                             HeightRequest="80"
                             VerticalOptions="Center"
                             Color="#F1F1F4"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Margin="-15"/>
                         <Label
                             WidthRequest="100"
@@ -962,7 +962,7 @@
                             HeightRequest="80"
                             VerticalOptions="Center"
                             Color="#F1F1F4"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Margin="-15"/>
                         <Label
                             WidthRequest="100"
@@ -1029,7 +1029,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="30"/>
+                                    CornerRadius="0"/>
                                 <Image
                                     Source="sofa.png"
                                     HeightRequest="15"
@@ -1055,7 +1055,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="30"/>
+                                    CornerRadius="0"/>
                                 <Image
                                     Source="sofa.png"
                                     HeightRequest="15"
@@ -1080,7 +1080,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#2C4A68"
-                                    CornerRadius="30"/>
+                                    CornerRadius="0"/>
                                 <Image
                                     Source="sofa.png"
                                     HeightRequest="15"
@@ -1105,7 +1105,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="30"/>
+                                    CornerRadius="0"/>
                                 <Image
                                     Source="sofa.png"
                                     HeightRequest="15"
@@ -1130,7 +1130,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="30"/>
+                                    CornerRadius="0"/>
                                 <Image
                                     Source="sofa.png"
                                     HeightRequest="15"
@@ -1163,7 +1163,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#2C4A68"
                             Text="Parking Lot"
                             TextColor="#F1F1F4"
@@ -1173,7 +1173,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#2C4A68"
                             Text="Pet Allowed"
                             TextColor="#F1F1F4"
@@ -1183,7 +1183,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#2C4A68"
                             Text="Garden"
                             TextColor="#F1F1F4"
@@ -1193,7 +1193,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#F1F1F4"
                             Text="Gym"
                             TextColor="#2C4A68"
@@ -1203,7 +1203,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#F1F1F4"
                             Text="Park"
                             TextColor="#2C4A68"
@@ -1213,7 +1213,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#F1F1F4"
                             Text="Home theatre"
                             TextColor="#2C4A68"
@@ -1223,7 +1223,7 @@
                         <Button
                             Grid.Row="4"
                             HeightRequest="60"
-                            CornerRadius="30"
+                            CornerRadius="0"
                             Background="#F1F1F4"
                             Text="Kid's Friendly"
                             TextColor="#2C4A68"
@@ -1238,7 +1238,7 @@
                         VerticalOptions="End"
                         WidthRequest="280"
                         HeightRequest="75"
-                        CornerRadius="15"
+                        CornerRadius="0"
                         Text="Update"
                         TextColor="White"
                         FontSize="16"

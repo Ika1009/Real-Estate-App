@@ -25,7 +25,7 @@
                 <ImageButton
                 HeightRequest="90"
                 WidthRequest="90"
-                CornerRadius="30"
+                CornerRadius="0"
                 BackgroundColor="#F1F1F4"
                 HorizontalOptions="End"
                 VerticalOptions="Start"
@@ -55,14 +55,14 @@
                     <BoxView
                     Grid.ColumnSpan="2"
                     Color="#F1F1F4"
-                    CornerRadius="30"/>
+                    CornerRadius="0"/>
 
                     <ImageButton
                     Source="icons_grid_inactive.png"
                     Background="#F1F1F4"
                     HeightRequest="40"
                     WidthRequest="50"
-                    CornerRadius="15"
+                    CornerRadius="0"
                     HorizontalOptions="End"
                     Padding="5"
                     Margin="-5,-5,-2.5,-5"/>
@@ -73,7 +73,7 @@
                     Background="White"
                     HeightRequest="40"
                     WidthRequest="50"
-                    CornerRadius="15"
+                    CornerRadius="0"
                     HorizontalOptions="Start"
                     Padding="5"
                     Margin="-2.5,-5,-5,-5"/>
@@ -86,7 +86,7 @@
                 Margin="0,30,0,0">
 
                     <Frame 
-                            CornerRadius="30"
+                            CornerRadius="0"
                             BorderColor="Transparent"
                             Padding="0">
                         <SwipeView>
@@ -102,7 +102,7 @@
                                 <Frame
                                 VerticalOptions="Start"
                                 HeightRequest="200"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
                                 Padding="10">
@@ -114,7 +114,7 @@
 
                                         <Frame
                                         BorderColor="Transparent"
-                                        CornerRadius="25"
+                                        CornerRadius="0"
                                         Padding="0">
                                             <Grid>
                                                 <Image
@@ -128,14 +128,14 @@
                                                 HeightRequest="40"
                                                 VerticalOptions="Start"
                                                 HorizontalOptions="Start"
-                                                CornerRadius="15"
+                                                CornerRadius="0"
                                                 Padding="5"
                                                 Margin="3,3,-5,-5"/>
 
                                                 <Frame
                                                 HeightRequest="30"
                                                 MaximumWidthRequest="160"
-                                                CornerRadius="10"
+                                                CornerRadius="0"
                                                 BackgroundColor="#E62C4A68"
                                                 BorderColor="Transparent"
                                                 VerticalOptions="End"
@@ -244,7 +244,7 @@
                         </SwipeView>
                     </Frame>
                     <Frame
-                            CornerRadius="30"
+                            CornerRadius="0"
                             BorderColor="Transparent"
                             Padding="0">
                         <SwipeView>
@@ -260,7 +260,7 @@
                                 <Frame
                                 VerticalOptions="Start"
                                 HeightRequest="200"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
                                 Padding="10">
@@ -272,7 +272,7 @@
 
                                         <Frame
                                         BorderColor="Transparent"
-                                        CornerRadius="25"
+                                        CornerRadius="0"
                                         Padding="0">
                                             <Grid>
                                                 <Image
@@ -286,14 +286,14 @@
                                                 HeightRequest="40"
                                                 VerticalOptions="Start"
                                                 HorizontalOptions="Start"
-                                                CornerRadius="15"
+                                                CornerRadius="0"
                                                 Padding="5"
                                                 Margin="3,3,-5,-5"/>
 
                                                 <Frame
                                                 HeightRequest="30"
                                                 MaximumWidthRequest="160"
-                                                CornerRadius="10"
+                                                CornerRadius="0"
                                                 BackgroundColor="#E62C4A68"
                                                 BorderColor="Transparent"
                                                 VerticalOptions="End"
@@ -402,7 +402,7 @@
                         </SwipeView>
                     </Frame>
                     <Frame
-                            CornerRadius="30"
+                            CornerRadius="0"
                             BorderColor="Transparent"
                             Padding="0">
                         <SwipeView>
@@ -418,7 +418,7 @@
                                 <Frame
                                     VerticalOptions="Start"
                                     HeightRequest="200"
-                                    CornerRadius="30"
+                                    CornerRadius="0"
                                     BackgroundColor="#F1F1F4"
                                     BorderColor="Transparent"
                                     Padding="10">
@@ -430,7 +430,7 @@
 
                                         <Frame
                                             BorderColor="Transparent"
-                                            CornerRadius="25"
+                                            CornerRadius="0"
                                             Padding="0">
                                             <Grid>
                                                 <Image
@@ -444,14 +444,14 @@
                                                     HeightRequest="40"
                                                     VerticalOptions="Start"
                                                     HorizontalOptions="Start"
-                                                    CornerRadius="15"
+                                                    CornerRadius="0"
                                                     Padding="5"
                                                     Margin="3,3,-5,-5"/>
 
                                                 <Frame
                                                     HeightRequest="30"
                                                     MaximumWidthRequest="160"
-                                                    CornerRadius="10"
+                                                    CornerRadius="0"
                                                     BackgroundColor="#E62C4A68"
                                                     BorderColor="Transparent"
                                                     VerticalOptions="End"

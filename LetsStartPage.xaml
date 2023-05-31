@@ -29,7 +29,7 @@
             Grid.Row="1"
             WidthRequest="200"
             HeightRequest="70"
-            CornerRadius="15"
+            CornerRadius="0"
             BackgroundColor="#98C655"
             Text="Let's start"
             FontSize="18"

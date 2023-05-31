@@ -44,7 +44,7 @@
                         BackgroundColor="#F1F1F4"
                         HeightRequest="90"
                         WidthRequest="90"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         Source="icons_gear.png"
                         Padding="15"
                         Margin="-15"
@@ -209,7 +209,7 @@
                             VerticalOptions="Center"
                             HorizontalOptions="Start"
                             Margin="10,0,0,0"
-                            CornerRadius="30"/>
+                            CornerRadius="0"/>
                         <Button
                             Grid.Column="1"
                             BackgroundColor="#F1F1F4"
@@ -221,7 +221,7 @@
                             HeightRequest="45"
                             VerticalOptions="Center"
                             HorizontalOptions="Center"
-                            CornerRadius="30"/>
+                            CornerRadius="0"/>
                         <Button
                             Grid.Column="2"
                             BackgroundColor="#F1F1F4"
@@ -234,7 +234,7 @@
                             VerticalOptions="Center"
                             HorizontalOptions="End"
                             Margin="0,0,10,0"
-                            CornerRadius="30"/>
+                            CornerRadius="0"/>
                     </Grid>
 
                     <Label
@@ -252,7 +252,7 @@
                         VerticalOptions="Center"
                         HorizontalOptions="End"
                         Color="#F1F1F4"
-                        CornerRadius="30"/>
+                        CornerRadius="0"/>
                     <ImageButton
                         Grid.Row="6"
                         WidthRequest="66"
@@ -282,7 +282,7 @@
                                 WidthRequest="160"
                                 MinimumHeightRequest="220"
                                 MaximumHeightRequest="500"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 Padding="10"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
@@ -302,7 +302,7 @@
                                     </Grid.RowDefinitions>
 
                                     <Frame
-                                    CornerRadius="30"
+                                    CornerRadius="0"
                                     HeightRequest="140"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
@@ -330,7 +330,7 @@
                                     Margin="0,0,10,10"
                                     HorizontalOptions="End"
                                     BackgroundColor="#E6596980"
-                                    CornerRadius="10"
+                                    CornerRadius="0"
                                     BorderColor="Transparent"
                                     Padding="13,0,13,0">
                                         <Label
@@ -374,7 +374,7 @@
                                 WidthRequest="160"
                                 MinimumHeightRequest="220"
                                 MaximumHeightRequest="500"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 Padding="10"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
@@ -387,7 +387,7 @@
                                     </Grid.RowDefinitions>
 
                                     <Frame
-                                    CornerRadius="30"
+                                    CornerRadius="0"
                                     HeightRequest="140"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
@@ -415,7 +415,7 @@
                                     Margin="0,0,10,10"
                                     HorizontalOptions="End"
                                     BackgroundColor="#E6596980"
-                                    CornerRadius="10"
+                                    CornerRadius="0"
                                     BorderColor="Transparent"
                                     Padding="13,0,13,0">
                                         <Label
@@ -459,7 +459,7 @@
                                 WidthRequest="160"
                                 MinimumHeightRequest="220"
                                 MaximumHeightRequest="500"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 Padding="10"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
@@ -472,7 +472,7 @@
                                     </Grid.RowDefinitions>
 
                                     <Frame
-                                    CornerRadius="30"
+                                    CornerRadius="0"
                                     HeightRequest="140"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
@@ -500,7 +500,7 @@
                                     Margin="0,0,10,10"
                                     HorizontalOptions="End"
                                     BackgroundColor="#E6596980"
-                                    CornerRadius="10"
+                                    CornerRadius="0"
                                     BorderColor="Transparent"
                                     Padding="13,0,13,0">
                                         <Label
@@ -544,7 +544,7 @@
                                 WidthRequest="160"
                                 MinimumHeightRequest="220"
                                 MaximumHeightRequest="500"
-                                CornerRadius="30"
+                                CornerRadius="0"
                                 Padding="10"
                                 BackgroundColor="#F1F1F4"
                                 BorderColor="Transparent"
@@ -557,7 +557,7 @@
                                     </Grid.RowDefinitions>
 
                                     <Frame
-                                    CornerRadius="30"
+                                    CornerRadius="0"
                                     HeightRequest="140"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
@@ -585,7 +585,7 @@
                                     Margin="0,0,10,10"
                                     HorizontalOptions="End"
                                     BackgroundColor="#E6596980"
-                                    CornerRadius="10"
+                                    CornerRadius="0"
                                     BorderColor="Transparent"
                                     Padding="13,0,13,0">
                                         <Label

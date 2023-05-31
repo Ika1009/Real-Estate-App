@@ -60,7 +60,7 @@
 
                 <Frame
                     Grid.Row="3"
-                    CornerRadius="30"
+                    CornerRadius="0"
                     Margin="-10,25,-10,-10"
                     Padding="0,0,0,0"
                     BorderColor="Transparent"

@@ -20,7 +20,7 @@
             <ImageButton
                         HeightRequest="106"
                         WidthRequest="106"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         BackgroundColor="#F1F1F4"
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
@@ -73,7 +73,7 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"
+                    CornerRadius="0"
                         />
                 </Border>
                 <Entry
@@ -110,7 +110,7 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"/>
+                    CornerRadius="0"/>
                 </Border>
 
                 <Entry
@@ -141,7 +141,7 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"/>
+                    CornerRadius="0"/>
                 </Border>
 
                 <Entry
@@ -172,7 +172,7 @@
                     HeightRequest="80"
                     WidthRequest="80"
                     Color="#F1F1F4"
-                    CornerRadius="15"/>
+                    CornerRadius="0"/>
                 </Border>
 
                 <Entry

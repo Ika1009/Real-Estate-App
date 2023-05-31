@@ -21,7 +21,7 @@
                     <ImageButton
                         HeightRequest="106"
                         WidthRequest="106"
-                        CornerRadius="30"
+                        CornerRadius="0"
                         BackgroundColor="#F1F1F4"
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
@@ -61,7 +61,7 @@
                             <RowDefinition Height="100"/>
                         </Grid.RowDefinitions>
 
-                        <!--#2C4A68  Blue color for the border when the entry is active -->
+                        
                         <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
                         <Border
                             Stroke="#F1F1F4"
@@ -70,7 +70,7 @@
                             BackgroundColor="Transparent"
                             HorizontalOptions="Center">
                             <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="15"/>
+                                <RoundRectangle CornerRadius="0"/>
                             </Border.StrokeShape>
                             
                             <Grid>
@@ -82,7 +82,7 @@
                                 <BoxView
                                     Grid.ColumnSpan="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="15"/>
+                                    CornerRadius="0"/>
 
                                 <local:BorderlessEntry
                                     Placeholder="First and Last name"
@@ -103,7 +103,7 @@
                             </Grid>
                         </Border>
 
-                        <!--#2C4A68  Blue color for the border when the entry is active -->
+                        
                         <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
                         <Border
                             Grid.Row="1"
@@ -113,7 +113,7 @@
                             BackgroundColor="Transparent"
                             HorizontalOptions="Center">
                             <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="15"/>
+                                <RoundRectangle CornerRadius="0"/>
                             </Border.StrokeShape>
 
                             <Grid>
@@ -126,7 +126,7 @@
                                     Grid.ColumnSpan="2"
                                     Grid.Row="1"
                                     Color="#F1F1F4"
-                                    CornerRadius="15"/>
+                                    CornerRadius="0"/>
 
                                 <local:BorderlessEntry
                                     Grid.Row="1"
@@ -149,7 +149,7 @@
                             </Grid>
                         </Border>
 
-                        <!--#2C4A68  Blue color for the border when the entry is active -->
+                        
                         <!--#F95A5A  Red color for the border stroke when the info is incorrect  -->
                         <Border
                             Grid.Row="2"
@@ -158,7 +158,7 @@
                             BackgroundColor="Transparent"
                             HorizontalOptions="Center">
                             <Border.StrokeShape>
-                                <RoundRectangle CornerRadius="15"/>
+                                <RoundRectangle CornerRadius="0"/>
                             </Border.StrokeShape>
 
                             <Grid>
@@ -171,7 +171,7 @@
                                     Grid.ColumnSpan="2"
                                     Grid.Row="2"
                                     Color="#F1F1F4"
-                                    CornerRadius="15"/>
+                                    CornerRadius="0"/>
 
                                 <local:BorderlessEntry
                                     Grid.Row="2"
@@ -217,7 +217,7 @@
                         WidthRequest="290"
                         BackgroundColor="#98C655"
                         Clicked="Button_Clicked"
-                        CornerRadius="15"
+                        CornerRadius="0"
                         Text="Register"
                         FontSize="18"
                         FontAttributes="Bold"/>
