@@ -27,7 +27,7 @@
                     BackgroundColor="#DCDCDC"
                     HeightRequest="40"
                     WidthRequest="90"
-                    CornerRadius="45"
+                    CornerRadius="0"
                     HorizontalOptions="End"
                     VerticalOptions="Start"
                     Margin="0,25,0,0"
@@ -74,20 +74,20 @@
                         <BoxView
                             HeightRequest="4"
                             WidthRequest="100"
-                            CornerRadius="2"
+                            CornerRadius="0"
                             Color="#80FFFFFF"
                             Margin="0,340,0,0"/>
                         <BoxView
                             HeightRequest="4"
                             WidthRequest="70"
-                            CornerRadius="2"
+                            CornerRadius="0"
                             Color="#FFFFFF"
                             Margin="0,340,30,0"
                             IsVisible="True"/>
                         <BoxView
                             HeightRequest="4"
                             WidthRequest="70"
-                            CornerRadius="2"
+                            CornerRadius="0"
                             Color="#FFFFFF"
                             Margin="30,340,0,0"
                             IsVisible="False"/>

@@ -55,7 +55,7 @@
                         Padding="0"
                         HeightRequest="130"
                         WidthRequest="130"
-                        CornerRadius="65"
+                        CornerRadius="0"
                         VerticalOptions="Start"
                         Margin="0,20,0,0">
                         <Image
@@ -71,7 +71,7 @@
                         Margin="78,8,-12,-12"
                         HeightRequest="64"
                         WidthRequest="64"
-                        CornerRadius="20"
+                        CornerRadius="0"
                         Source="icons_pencil.png"
                         Padding="12"/>
 
@@ -195,7 +195,7 @@
                             Grid.ColumnSpan="3"
                             VerticalOptions="Center"
                             HeightRequest="70"
-                            CornerRadius="40"
+                            CornerRadius="0"
                             Color="#F1F1F4"/>
 
                         <Button
@@ -261,7 +261,7 @@
                         VerticalOptions="Center"
                         HorizontalOptions="End"
                         BackgroundColor="White"
-                        CornerRadius="20"
+                        CornerRadius="0"
                         Source="icons_grid.png"
                         Padding="8"/>
 
@@ -316,7 +316,7 @@
                                     BackgroundColor="#E6F1F1F4"
                                     HeightRequest="60"
                                     WidthRequest="60"
-                                    CornerRadius="20"
+                                    CornerRadius="0"
                                     HorizontalOptions="End"
                                     VerticalOptions="Start"
                                     Margin="-10,0,0,-10"
@@ -401,7 +401,7 @@
                                     BackgroundColor="#E6F1F1F4"
                                     HeightRequest="60"
                                     WidthRequest="60"
-                                    CornerRadius="20"
+                                    CornerRadius="0"
                                     HorizontalOptions="End"
                                     VerticalOptions="Start"
                                     Margin="-10,0,0,-10"
@@ -486,7 +486,7 @@
                                     BackgroundColor="#E6F1F1F4"
                                     HeightRequest="60"
                                     WidthRequest="60"
-                                    CornerRadius="20"
+                                    CornerRadius="0"
                                     HorizontalOptions="End"
                                     VerticalOptions="Start"
                                     Margin="-10,0,0,-10"
@@ -571,7 +571,7 @@
                                     BackgroundColor="#E6F1F1F4"
                                     HeightRequest="60"
                                     WidthRequest="60"
-                                    CornerRadius="20"
+                                    CornerRadius="0"
                                     HorizontalOptions="End"
                                     VerticalOptions="Start"
                                     Margin="-10,0,0,-10"

@@ -408,7 +408,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house1.png"
                                                         Aspect="AspectFill"/>
@@ -419,7 +419,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -446,7 +446,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house2.png"
                                                         Aspect="AspectFill"/>
@@ -457,7 +457,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -484,7 +484,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house2.png"
                                                         Aspect="AspectFill"/>
@@ -495,7 +495,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -522,7 +522,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house1.png"
                                                         Aspect="AspectFill"/>
@@ -533,7 +533,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -586,7 +586,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house1.png"
                                                         Aspect="AspectFill"/>
@@ -597,7 +597,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -624,7 +624,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house2.png"
                                                         Aspect="AspectFill"/>
@@ -635,7 +635,7 @@
                                             Source="icons_close.png"
                                             WidthRequest="66"
                                             HeightRequest="66"
-                                            CornerRadius="20"
+                                            CornerRadius="0"
                                             VerticalOptions="Start"
                                             HorizontalOptions="End"
                                             Background="#98C655"
@@ -662,7 +662,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house2.png"
                                                         Aspect="AspectFill"/>
@@ -673,7 +673,7 @@
                                              Source="icons_close.png"
                                              WidthRequest="66"
                                              HeightRequest="66"
-                                             CornerRadius="20"
+                                             CornerRadius="0"
                                              VerticalOptions="Start"
                                              HorizontalOptions="End"
                                              Background="#98C655"
@@ -700,7 +700,7 @@
                                                     Padding="0"
                                                     WidthRequest="155"
                                                     HeightRequest="165"
-                                                    CornerRadius="27.5">
+                                                    CornerRadius="0">
                                                     <Image
                                                         Source="house1.png"
                                                         Aspect="AspectFill"/>
@@ -711,7 +711,7 @@
                                              Source="icons_close.png"
                                              WidthRequest="66"
                                              HeightRequest="66"
-                                             CornerRadius="20"
+                                             CornerRadius="0"
                                              VerticalOptions="Start"
                                              HorizontalOptions="End"
                                              Background="#98C655"
@@ -874,7 +874,7 @@
                             Source="icons_minus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="Start"
                             BackgroundColor="#a8a4bc"
                             Padding="10"
@@ -884,7 +884,7 @@
                             Source="icons_plus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="End"
                             BackgroundColor="#a8a4bc"
                             Padding="10"
@@ -925,7 +925,7 @@
                             Source="icons_minus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="Start"
                             BackgroundColor="#a8a4bc"
                             Padding="10"
@@ -935,7 +935,7 @@
                             Source="icons_plus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="End"
                             BackgroundColor="#a8a4bc"
                             Padding="10"
@@ -976,7 +976,7 @@
                             Source="icons_minus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="Start"
                             BackgroundColor="#a8a4bc"
                             Padding="10"
@@ -986,7 +986,7 @@
                             Source="icons_plus_white.png"
                             HeightRequest="60"
                             WidthRequest="60"
-                            CornerRadius="12"
+                            CornerRadius="0"
                             HorizontalOptions="End"
                             BackgroundColor="#a8a4bc"
                             Padding="10"

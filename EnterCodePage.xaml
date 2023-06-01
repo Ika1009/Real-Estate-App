@@ -67,7 +67,7 @@
                         Stroke="#2C4A68"
                         x:Name="borderCode0">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                        <RoundRectangle CornerRadius="0, 0, 0, 0"/>
                     </Border.StrokeShape>
                     <BoxView
                     HeightRequest="80"
@@ -104,7 +104,7 @@
                     Stroke="#2C4A68"
                     x:Name="borderCode1">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                        <RoundRectangle CornerRadius="0, 0, 0, 0"/>
                     </Border.StrokeShape>
                     <BoxView
                     HeightRequest="80"
@@ -135,7 +135,7 @@
                     Stroke="#2C4A68"
                     x:Name="borderCode2">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                        <RoundRectangle CornerRadius="0, 0, 0, 0"/>
                     </Border.StrokeShape>
                     <BoxView
                     HeightRequest="80"
@@ -166,7 +166,7 @@
                     Stroke="#2C4A68"
                     x:Name="borderCode3">
                     <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="15, 15, 15, 15"/>
+                        <RoundRectangle CornerRadius="0, 0, 0, 0"/>
                     </Border.StrokeShape>
                     <BoxView
                     HeightRequest="80"
@@ -204,7 +204,7 @@
                     HeightRequest="65"
                     WidthRequest="120"
                     Color="#F1F1F4"
-                    CornerRadius="35"/>
+                    CornerRadius="0"/>
 
                 <Image
                     Grid.Column="0"
