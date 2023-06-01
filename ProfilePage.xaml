@@ -113,7 +113,7 @@
                             HeightRequest="90"
                             WidthRequest="110"
                             StrokeThickness="2"
-                            StrokeShape="RoundRectangle 20">
+                            StrokeShape="Rectangle">
                             <Label
                                 Grid.Row="0"
                                 TextColor="#2C4A68"
@@ -138,7 +138,7 @@
                             HeightRequest="90"
                             WidthRequest="110"
                             StrokeThickness="2"
-                            StrokeShape="RoundRectangle 20">
+                            StrokeShape="Rectangle">
                             <Label
                                 Grid.Row="0"
                                 TextColor="#2C4A68"
@@ -163,7 +163,7 @@
                             HeightRequest="90"
                             WidthRequest="110"
                             StrokeThickness="2"
-                            StrokeShape="RoundRectangle 20">
+                            StrokeShape="Rectangle">
                             <Label
                                 Grid.Row="0"
                                 TextColor="#2C4A68"
@@ -273,9 +273,7 @@
                             JustifyContent="SpaceBetween"
                             Wrap="Wrap"
                             Margin="0,40,0,0">
-                            
-                            
-                            
+                                                                                   
                             <Frame
                                 HorizontalOptions="Start"
                                 VerticalOptions="Start"
@@ -303,7 +301,7 @@
 
                                     <Frame
                                     CornerRadius="0"
-                                    HeightRequest="140"
+                                    HeightRequest="80"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
                                         <Image
@@ -388,7 +386,7 @@
 
                                     <Frame
                                     CornerRadius="0"
-                                    HeightRequest="140"
+                                    HeightRequest="80"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
                                         <Image
@@ -473,7 +471,7 @@
 
                                     <Frame
                                     CornerRadius="0"
-                                    HeightRequest="140"
+                                    HeightRequest="80"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
                                         <Image
@@ -558,7 +556,7 @@
 
                                     <Frame
                                     CornerRadius="0"
-                                    HeightRequest="140"
+                                    HeightRequest="80"
                                     WidthRequest="140"
                                     VerticalOptions="Start">
                                         <Image
