@@ -8,7 +8,7 @@
 
     <ShellContent
         Title="Sign In"
-        ContentTemplate="{DataTemplate local:NewPage6}"
+        ContentTemplate="{DataTemplate local:NewPage4}"
         Route="SignInPage" />
 
     <TabBar Route="TabBar">

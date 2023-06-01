@@ -13,7 +13,7 @@
 
         <Image
             Grid.RowSpan="3"
-            Source="background.png"
+            Source="background_no_text.png"
             Aspect="AspectFill"/>
 
         <Label
